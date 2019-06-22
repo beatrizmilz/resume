@@ -50,23 +50,37 @@ Education {data-icon=graduation-cap data-concise=true}
 
 ### University of São Paulo
 
-Doctorate Student in Environmental Sciences - Institute of Energy and Environment
+**Doctorate Student in Environmental Science**       <br> Institute of Energy and Environment <br> Graduate Program in Environmental Science
 
 São Paulo, SP, Brazil
 
-2019 - 
+2019 - (2022)
 
-Research project: 
+**Research project:** Active Transpacency in the water resources management in Sao Paulo Macrometropolis using the INTRAG method
 
-Advisor: [Pedro Roberto Jacobi]( http://lattes.cnpq.br/6799067928413168) 
+
+**Advisor:** [Pedro Roberto Jacobi]( http://lattes.cnpq.br/6799067928413168) 
 
 ### Federal University of São Paulo
 
-M.S. in Sciences
+**M.S. in Sciences** <br> Institute of Environmental, Chemical and Pharmaceutical Sciences <br> Graduate Program in Integrated Environmental Analysis
 
 Diadema, SP, Brazil
 
-2016-2018
+2016 - 2018
 
-Dissertation: ....
+**Dissertation:** Evaluation of the water quality and remote sensing mapping (LANDSAT-8/OLI) of the Central Body I of the Billings Reservoir (São Paulo, SP)
 
+**Advisor:** [Cristina Souza Freire Nordi](http://lattes.cnpq.br/1133827212627122) 
+
+### University of São Paulo
+
+**Bachelor degree in Environmental Management**       <br> School of Arts, Sciences and Humanities 
+
+São Paulo, SP, Brazil
+
+2012 - 2015
+
+**Undergraduate thesis:** Use of the Billings reservoir for public supply in the Metropolitan Region of Sao Paulo in the context of water crisis: The interligation of the Billings reservoir and the Alto Tietê System.
+
+**Advisor:** [Pedro Roberto Jacobi]( http://lattes.cnpq.br/6799067928413168) 
