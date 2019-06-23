@@ -57,15 +57,14 @@ Languages {#languages}
 **English:** Advanced
 
 
-
-
-
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
 This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
 This resume is not complete.
+
+Code available on <i class="fa fa-github"></i>  [Github](https://github.com/beatrizmilz/resume). 
 
 Last updated on `r Sys.Date()`.
 
@@ -311,6 +310,7 @@ Retirei do currículo
  Avaliação de Impacto Ambiental nos Sistemas Aquáticos Continentais, XVI
 Congresso Brasileiro de Limnologia, 5h.
 ```
+
 
 ### 2016
 
