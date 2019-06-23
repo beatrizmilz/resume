@@ -221,15 +221,7 @@ N/A
 
 [Lógica de Programação](https://beatrizmilz.github.io/resume/certificates/2018/Soft-blue-Logica-de-Programacao.pdf), Softblue, 20h.
 
-```{eval=FALSE, include=FALSE}
-Não encontrei certificado
-`R` -  Minicurso de R: RMarkdown, 13a aMostra Estatística - Curso-R e IME/USP,
-2h30.
 
-`R` -  Minicurso de R: Shiny, 13a aMostra Estatística - Curso-R e IME/USP, 2h30.
-
-`R` -  Minicurso de R: EDA-R, 13a aMostra Estatística - Curso-R e IME/USP, 2h30.
-```
 
 
 ### 2017
@@ -241,17 +233,23 @@ N/A
 2017
 
 
-
- Avaliação de Impacto Ambiental nos Sistemas Aquáticos Continentais, XVI
-Congresso Brasileiro de Limnologia, 5h.
-
- Atuação Socioambiental em Mananciais – Represa Billings e Guarapiranga,
-Universidade Federal de São Paulo, 40h.
-
-`GIS` - Workshop de QGIS – Acessando dados abertos e georreferenciamento, Estúdio
+`GIS` - [Workshop de QGIS – Acessando dados abertos e georreferenciamento](https://beatrizmilz.github.io/resume/certificates/2017/fna_geotecnologia_workshop_dados_abertos.pdf), Estúdio
 Registro, 4h.
 
 `GIS` - Geoprocessamento para Planejamento e Gestão Ambiental, SENAC, 32h.
+
+```{R eval=FALSE, include=FALSE}
+Não encontrei certificado
+ Atuação Socioambiental em Mananciais – Represa Billings e Guarapiranga,
+Universidade Federal de São Paulo, 40h.
+ 
+ `GIS` - Geoprocessamento para Planejamento e Gestão Ambiental, SENAC, 32h.
+ 
+
+Retirei do currículo
+ Avaliação de Impacto Ambiental nos Sistemas Aquáticos Continentais, XVI
+Congresso Brasileiro de Limnologia, 5h.
+```
 
 ### 2016
 
@@ -265,7 +263,19 @@ Expressão Verbal - desinibição ao falar em público, SENAC, 24h.
 
 Legislação Ambiental, SENAC, 40h.
 
+
+```{R eval=FALSE, include=FALSE}
+Não encontrei certificado
+Expressão Verbal - desinibição ao falar em público, SENAC, 24h.
+
+Legislação Ambiental, SENAC, 40h.
+
+ 
+
+Retirei do currículo
+
 Elaboração, Avaliação e Gestão de Projetos Socioambientais, Serviço Municipal de Saneamento Ambiental de Santo André (SEMASA), 10h.
+```
 
 ### 2015
 
@@ -275,12 +285,20 @@ N/A
 
 2015
 
+Excel 2010 Módulo II, Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h.
+
+ACCESS 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h.
+
+[Mudanças climáticas, recursos hídricos e educação ambiental](https://beatrizmilz.github.io/resume/certificates/2015/oficina_munic_Mudancas_climaticas.jpg), Oficina Municipal – Escola de cidadania e gestão pública, 14h.
+
+```{R eval=FALSE, include=FALSE}
+
 Excel 2010 Módulo II, Empresa de Tecnologia da Informação e Comunicação
 do Município de São Paulo (PRODAM-SP), 20h.
 
 ACCESS 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h.
 
-Mudanças climáticas, recursos hídricos e educação ambiental, Oficina Municipal – Escola de cidadania e gestão pública, 14h.
+```
 
 ### 2014
 
@@ -290,18 +308,12 @@ N/A
 
 2014
 
-`GIS` - Mapa Digital da Cidade – MDC, Departamento de Produção e Análise de
-Informação – DEINFO da Secretaria Municipal de Desenvolvimento Urbano – SMDU,
-3h.
+`GIS` - Mapa Digital da Cidade – MDC, Departamento de Produção e Análise de Informação – DEINFO da Secretaria Municipal de Desenvolvimento Urbano – SMDU, 3h.
 
-`GIS` - Uso do SIG-GCM e Capacitação do Aplicativo GEO-SIG-GCM, Guarda Civil
-Metropolitana/SMSU/PMSP, 8h.
+`GIS` - Uso do SIG-GCM e Capacitação do Aplicativo GEO-SIG-GCM, Guarda Civil Metropolitana/SMSU/PMSP, 8h.
 
-`GIS` - Introdução aos Sistemas de Informação Geográfica – Prática com Quantum
-GIS, Instituto GEOeduc, 8h.
+`GIS` - Introdução aos Sistemas de Informação Geográfica – Prática com Quantum GIS, Instituto GEOeduc, 8h.
 
-`GIS` - Introdução ao Processamento Digital de Imagens – Prática com Quantum GIS
-Instituto GEOeduc, 8h.
+`GIS` - Introdução ao Processamento Digital de Imagens – Prática com Quantum GIS Instituto GEOeduc, 8h.
 
-Excel 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação
-do Município de São Paulo (PRODAM-SP), 20h.
+Excel 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h.
