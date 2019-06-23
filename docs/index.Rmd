@@ -174,15 +174,15 @@ N/A
 
 2019
 
-`R` - [R Programming](certificates/2019/DS-2-Coursera-5R6SZKQCCYJ4.pdf) -  Coursera/Johns Hopkins University
+`R` - [R Programming](https://beatrizmilz.github.io/resume/certificates/2019/DS-2-Coursera-5R6SZKQCCYJ4.pdf) -  Coursera/Johns Hopkins University
 
-`R` - [The Data Scientist’s Toolbox](certificates/2019/DS-1-Coursera-THZN7SCGDL57.pdf) -  Coursera/Johns Hopkins University
+`R` - [The Data Scientist’s Toolbox](https://beatrizmilz.github.io/resume/certificates/2019/DS-1-Coursera-THZN7SCGDL57.pdf) -  Coursera/Johns Hopkins University
 
-`R` - [Dashboards with R](certificates/2019/curso-r-dashboards.pdf) - Curso-R, 18 hours
+`R` - [Dashboards with R](https://beatrizmilz.github.io/resume/certificates/2019/curso-r-dashboards.pdf) - Curso-R, 18 hours
 
-`R` - [Building web applications in R using Shiny](certificates/2019/ser_shiny.pdf) - Dean Atalli & IV Seminário Internacional de Estatística com R, 3 hours
+`R` - [Building web applications in R using Shiny](https://beatrizmilz.github.io/resume/certificates/2019/ser_shiny.pdf) - Dean Atalli & IV Seminário Internacional de Estatística com R, 3 hours
 
-`R` -  [Web Scraping with R](certificates/2019/curso-r-web-scraping.pdf) - Curso-R, 8 hours
+`R` -  [Web Scraping with R](https://beatrizmilz.github.io/resume/certificates/2019/curso-r-web-scraping.pdf) - Curso-R, 8 hours
 
 `R` - Introduction to the Tidyverse, Datacamp, 4h.
 
@@ -199,7 +199,7 @@ N/A
 
 
 
-`R` - [Introduction to R Programming](certificates/2018/curso-r-introducao-ao-r.png) - 16 hours, Curso-R
+`R` - [Introduction to R Programming](https://beatrizmilz.github.io/resume/certificates/2018/curso-r-introducao-ao-r.png) - 16 hours, Curso-R
 
 `R` -  Reporting with R Markdown Course, Datacamp, 4h.
 
