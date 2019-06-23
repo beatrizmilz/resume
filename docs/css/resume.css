@@ -73,7 +73,7 @@ li{
 }
 
 a{
-  color:#575757;
+  color: #2A5DB0;
   text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ img{
 
 /** big title **/
 h2{
-# text-transform: uppercase;
+   text-transform: uppercase;
 }
 
 #title{

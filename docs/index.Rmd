@@ -26,7 +26,7 @@ knitr::include_graphics("img/beatriz.jpg")
 Summary {#summary}
 --------------------------------------------------------------------------------
 
-Doctoral Student in Environmental Sciences at University of Sao Paulo (USP).
+Doctoral Student in Environmental Science at University of Sao Paulo (USP).
 
 R enthusiast. 
 
@@ -163,3 +163,132 @@ São Paulo, SP, Brazil
 
 2014 - 2015
 
+
+Short courses  {data-icon=book} 
+--------------------------------------------------------------------------------
+### 2019
+
+N/A
+
+N/A
+
+2019
+
+`R` - [R Programming](certificates/2019/DS-2-Coursera-5R6SZKQCCYJ4.pdf) -  Coursera/Johns Hopkins University
+
+`R` - [The Data Scientist’s Toolbox](certificates/2019/DS-1-Coursera-THZN7SCGDL57.pdf) -  Coursera/Johns Hopkins University
+
+`R` - [Dashboards with R](certificates/2019/curso-r-dashboards.pdf) - Curso-R, 18 hours
+
+`R` - [Building web applications in R using Shiny](certificates/2019/ser_shiny.pdf) - Dean Atalli & IV Seminário Internacional de Estatística com R, 3 hours
+
+`R` -  [Web Scraping with R](certificates/2019/curso-r-web-scraping.pdf) - Curso-R, 8 hours
+
+`R` - Introduction to the Tidyverse, Datacamp, 4h.
+
+`R` - Intermediate R - Practice Course, Datacamp, 4h.
+
+
+### 2018
+
+N/A
+
+N/A
+
+2018
+
+
+
+`R` - [Introduction to R Programming](certificates/2018/curso-r-introducao-ao-r.png) - 16 hours, Curso-R
+
+`R` -  Reporting with R Markdown Course, Datacamp, 4h.
+
+`R` -  Intermediate R Course, Datacamp, 4h.
+
+`R` -  Minicurso de R: RMarkdown, 13a aMostra Estatística - Curso-R e IME/USP,
+2h30.
+
+`R` -  Minicurso de R: Shiny, 13a aMostra Estatística - Curso-R e IME/USP, 2h30.
+
+`R` -  Minicurso de R: EDA-R, 13a aMostra Estatística - Curso-R e IME/USP, 2h30.
+
+`Python` -  Intro to Python for Data Science Course, Datacamp, 4h.
+
+`R` -  Introduction to R Course, Datacamp, 4h.
+Lógica de Programação, Softblue, 20h.
+
+
+
+### 2017
+
+N/A
+
+N/A
+
+2017
+
+
+
+ Avaliação de Impacto Ambiental nos Sistemas Aquáticos Continentais, XVI
+Congresso Brasileiro de Limnologia, 5h.
+
+ Atuação Socioambiental em Mananciais – Represa Billings e Guarapiranga,
+Universidade Federal de São Paulo, 40h.
+
+`GIS` - Workshop de QGIS – Acessando dados abertos e georreferenciamento, Estúdio
+Registro, 4h.
+
+`GIS` - Geoprocessamento para Planejamento e Gestão Ambiental, SENAC, 32h.
+
+### 2016
+
+N/A
+
+N/A
+
+2016
+
+Expressão Verbal - desinibição ao falar em público, SENAC, 24h.
+
+Legislação Ambiental, SENAC, 40h.
+
+Elaboração, Avaliação e Gestão de Projetos Socioambientais, Serviço Municipal de Saneamento Ambiental de Santo André (SEMASA), 10h.
+
+### 2015
+
+N/A
+
+N/A
+
+2015
+
+Excel 2010 Módulo II, Empresa de Tecnologia da Informação e Comunicação
+do Município de São Paulo (PRODAM-SP), 20h.
+
+ACCESS 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h.
+
+Mudanças climáticas, recursos hídricos e educação ambiental, Oficina Municipal – Escola de cidadania e gestão pública, 14h.
+
+### 2014
+
+N/A
+
+N/A
+
+2014
+
+`GIS` - Mapa Digital da Cidade – MDC, Departamento de Produção e Análise de
+Informação – DEINFO da Secretaria Municipal de Desenvolvimento Urbano – SMDU,
+3h.
+
+`GIS` - Uso do SIG-GCM e Capacitação do Aplicativo GEO-SIG-GCM, Guarda Civil
+Metropolitana/SMSU/PMSP, 8h.
+
+`GIS` - Introdução aos Sistemas de Informação Geográfica – Prática com Quantum
+GIS, Instituto GEOeduc, 8h.
+
+`GIS` - Introdução ao Processamento Digital de Imagens – Prática com Quantum GIS
+Instituto GEOeduc, 8h.
+
+Excel 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação
+do Município de São Paulo (PRODAM-SP), 20h.
