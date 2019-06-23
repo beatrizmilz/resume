@@ -205,25 +205,31 @@ N/A
 
 
 
+
+
+`R` -  [Reporting with R Markdown Course](certificates/2018/datacamp-reporting-with-rmarkdown.pdf), Datacamp.
+
+`R` -  [Intermediate R Course](certificates/2018/datacamp-intermediate-R.pdf), Datacamp.
+
+
+
 `R` - [Introduction to R Programming](https://beatrizmilz.github.io/resume/certificates/2018/curso-r-introducao-ao-r.png) - Curso-R, 16h.
 
-`R` -  Reporting with R Markdown Course, Datacamp.
+`Python` -  [Intro to Python for Data Science Course](https://beatrizmilz.github.io/resume/certificates/2018/datacamp-introduction-to-python.pdf), Datacamp.
 
-`R` -  Intermediate R Course, Datacamp.
+`R` -  [Introduction to R Course](https://beatrizmilz.github.io/resume/certificates/2018/datacamp-introduction-to-r.pdf), Datacamp.
 
+[Lógica de Programação](https://beatrizmilz.github.io/resume/certificates/2018/Soft-blue-Logica-de-Programacao.pdf), Softblue, 20h.
+
+```{eval=FALSE, include=FALSE}
+Não encontrei certificado
 `R` -  Minicurso de R: RMarkdown, 13a aMostra Estatística - Curso-R e IME/USP,
 2h30.
 
 `R` -  Minicurso de R: Shiny, 13a aMostra Estatística - Curso-R e IME/USP, 2h30.
 
 `R` -  Minicurso de R: EDA-R, 13a aMostra Estatística - Curso-R e IME/USP, 2h30.
-
-`Python` -  Intro to Python for Data Science Course, Datacamp.
-
-`R` -  Introduction to R Course, Datacamp.
-
-Lógica de Programação, Softblue, 20h.
-
+```
 
 
 ### 2017
