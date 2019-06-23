@@ -420,3 +420,7 @@ h2{
     width: unset;
   }
 }
+
+.break-after-me {
+  break-after: page;
+}

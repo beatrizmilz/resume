@@ -12,15 +12,12 @@ output:
 # If needed:
 # https://pagedown.rbind.io/
 # https://www.pagedmedia.org/about-paged-media/pagedjs-cheatsheet/
-# 
+# https://slides.yihui.name/2019-rstudio-conf-pagedown.html#1
+# xaringan::inf_mr("docs/index.Rmd")
 ---
-
 Aside
 ================================================================================
 
-```{r eval=FALSE, fig.align='center', include=FALSE}
-knitr::include_graphics("img/beatriz.jpg")
-```
 
 
 Summary {#summary}
@@ -38,11 +35,29 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> beatriz.milz@usp.br
+
 - <i class="fa fa-phone"></i> (+55) 11 98420-2780
-- <i class="fa fa-github"></i> [github.com/beatrizmilz](https://github.com/beatrizmilz)
+
+- <i class="fa fa-github"></i> [Github: beatrizmilz](https://github.com/beatrizmilz)
+
 - <i class="fa fa-external-link-alt"></i> [Lattes CNPQ](http://lattes.cnpq.br/5150665880581477) 
+
+- <i class="fa fa-linkedin"></i> [Linkedin](https://br.linkedin.com/in/beatrizmilz) 
+
+
 - <i class="fa fa-home"></i> https://beatrizmilz.github.io
+
 - For more information, please contact me via email.
+
+
+Languages {#languages}
+--------------------------------------------------------------------------------
+**Portuguese:** Native
+
+**English:** Advanced
+
+
+
 
 
 Disclaimer {#disclaimer}
@@ -53,6 +68,9 @@ This resume was made with the R package [**pagedown**](https://github.com/rstudi
 This resume is not complete.
 
 Last updated on `r Sys.Date()`.
+
+
+
 
 
 Main
@@ -127,7 +145,7 @@ N/A
 2018 - Currently
 
 
-Scientific Journals - Editorial Board {data-icon=book}
+Scientific Journals - Editorial Board {data-icon=book .break-after-me}
 --------------------------------------------------------------------------------
 
 ### Editorial Secretary - [Journal Environment & Society](http://scielo.br/asoc)
@@ -140,10 +158,7 @@ N/A
 
 
 
-
-<BR>
-
-Teaching Experience {data-icon=chalkboard-teacher}
+Experience {data-icon=briefcase}
 --------------------------------------------------------------------------------
 ### Federal University of São Paulo
 
@@ -153,8 +168,7 @@ Diadema, SP, Brazil
 
 2017 - 2017
 
-Work Experience {data-icon=briefcase} 
---------------------------------------------------------------------------------
+
 ### City Hall of Sao Paulo
 
 **Intern in Environmental Managment** 
@@ -164,7 +178,54 @@ São Paulo, SP, Brazil
 2014 - 2015
 
 
-Short courses  {data-icon=book} 
+
+Meetup Presentations {data-icon=meetup} 
+--------------------------------------------------------------------------------
+
+### 2019
+
+N/A
+
+N/A
+
+2019
+
+`R` - [“Communicating your results: creating presentations with R”](https://beatrizmilz.github.io/IV-SER-RLadies/), in Portuguese, Meetup R-Ladies Niteroi.
+
+`R` - [“R Workshop - Intermediate”](https://beatrizmilz.github.io/2019-02-R-Interm-R-LadiesSP/#), in Portuguese, Meetup R-Ladies São Paulo.
+
+`R` - [“R Workshop - Basic”](https://maryms.github.io/2019-02-R-Basics-R-LadiesSP/), in Portuguese, Meetup R-Ladies São Paulo.
+
+
+### 2018
+
+N/A
+
+N/A
+
+2018
+
+`R` - [“Communicating your results: creating presentations with R”](https://beatrizmilz.github.io/apresentacao_RLadies_xaringan/), in Portuguese, Meetup R-Ladies São Paulo.
+
+Other presentations  {data-icon=chalkboard-teacher .break-after-me} 
+--------------------------------------------------------------------------------
+### 2018
+
+N/A
+
+N/A
+
+2018
+
+`R` - Introduction to R (R-Ladies São Paulo) - 2018 CODATA-RDA School of Research Data Science, in English, ICTP-SAIFR/NCC-UNESP.
+
+`R` - Introduction to R Workshop, in Portuguese, Federal University of ABC (UFABC).
+
+`R` - Introduction to R Workshop,  in Portuguese, Institute of Energy and Environment - University of Sao Paulo (IEE/USP).
+
+
+
+Short courses Attended {data-icon=book} 
 --------------------------------------------------------------------------------
 ### 2019
 
@@ -238,7 +299,7 @@ Registro, 4h.
 
 `GIS` - Geoprocessamento para Planejamento e Gestão Ambiental, SENAC, 32h.
 
-```{R eval=FALSE, include=FALSE}
+```{r eval=FALSE, include=FALSE}
 Não encontrei certificado
  Atuação Socioambiental em Mananciais – Represa Billings e Guarapiranga,
 Universidade Federal de São Paulo, 40h.
@@ -264,7 +325,7 @@ Expressão Verbal - desinibição ao falar em público, SENAC, 24h.
 Legislação Ambiental, SENAC, 40h.
 
 
-```{R eval=FALSE, include=FALSE}
+```{r eval=FALSE, include=FALSE}
 Não encontrei certificado
 Expressão Verbal - desinibição ao falar em público, SENAC, 24h.
 
@@ -291,7 +352,7 @@ ACCESS 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação do 
 
 [Mudanças climáticas, recursos hídricos e educação ambiental](https://beatrizmilz.github.io/resume/certificates/2015/oficina_munic_Mudancas_climaticas.jpg), Oficina Municipal – Escola de cidadania e gestão pública, 14h.
 
-```{R eval=FALSE, include=FALSE}
+```{r eval=FALSE, include=FALSE}
 
 Excel 2010 Módulo II, Empresa de Tecnologia da Informação e Comunicação
 do Município de São Paulo (PRODAM-SP), 20h.
@@ -317,3 +378,52 @@ N/A
 `GIS` - Introdução ao Processamento Digital de Imagens – Prática com Quantum GIS Instituto GEOeduc, 8h.
 
 Excel 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h.
+
+ 
+
+```{r eval=FALSE, include=FALSE}
+- PUBLICATIONS
+
+- ORAL COMMUNICATIONS
+
+- POSTER PRESENTATIONS
+- Grants: FAPESP, useR
+
+
+
+
+
+
+Events{data-icon=book} 
+--------------------------------------------------------------------------------
+ 2018 3a Conferência Brasileira de Jornalismo de Dados e Métodos Digitais (CODA
+BR), Open Knowledge Brasil, 18h.
+ 2018 WordCamp São Paulo 2018, 10h.
+ 2018 Oficina de Aprendizagem Social sobre Clima, IAG/USP, 6h.
+ 2018 Diálogos interdisciplinares sobre a Governança da Macrometrópole Paulista,
+MACROAMB/Fapesp.
+ 2018 Proposal Formulation Workshop - Small Grants Program: The role of ecosystem
+services in adapting to global change for Human Wellbeing (SGP-HW). Inter-
+American Institute for Global Change Research (IAI) .
+ 2017 VI Encontro Internacional de Governança da Água: Fortalecimento da Governança
+e Ampliação da Participação como caminho para a justiça hídrica. Grupo de
+Acompanhamento e Estudos de Governança Ambiental (GovAmb).
+ 2017 VII Simpósio Ecologia de Reservatórios. UNESP Botucatu.
+ 2017 XVI Congresso Brasileiro de Limnologia.
+ 2017 II Simpósio em Análise Ambiental Integrada (II SINTEGRADA), Instituto de
+Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo
+(UNIFESP)
+ 2016 II Simpósio Interdisciplinar de Ciência Ambiental, Instituto de Energia e Ambiente
+da Universidade de São Paulo (IEE/USP)
+ 2016 I Simpósio em Análise Ambiental Integrada (I SINTEGRADA), Instituto de
+Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo
+(UNIFESP)
+ 2015 V Encontro Internacional de Governança da Água, Grupo de Acompanhamento
+e Estudos de Governança Ambiental (GovAmb)
+ 2014 Instituições Públicas e Sociedade Enfrentando os Maus Tratos e o Abandono
+Animal, Grupo Especial de Combate aos Crimes Ambientais e de Parcelamento Irregular
+do Solo Urbano – GECAP
+
+```
+
+
