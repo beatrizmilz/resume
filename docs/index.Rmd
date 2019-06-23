@@ -184,9 +184,15 @@ N/A
 
 `R` -  [Web Scraping with R](https://beatrizmilz.github.io/resume/certificates/2019/curso-r-web-scraping.pdf) - Curso-R, 8h.
 
-`R` - Introduction to the Tidyverse, Datacamp, 4h.
+`R` - [Working with geospatial data in R](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-working-with-geospatial-data.pdf), Datacamp.
 
-`R` - Intermediate R - Practice Course, Datacamp, 4h.
+`R` - [Introduction to the Tidyverse](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-introduction-to-the-tidyverse.pdf), Datacamp.
+
+`R` - [R Programming Track](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-r-programming-track.pdf), Datacamp.
+
+`R` - [Writing functions with R](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-writing-functions-in-R.pdf), Datacamp.
+
+`R` - [Intermediate R](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-intermediate-r-practice.pdf) - Practice Course, Datacamp.
 
 
 ### 2018
@@ -201,9 +207,9 @@ N/A
 
 `R` - [Introduction to R Programming](https://beatrizmilz.github.io/resume/certificates/2018/curso-r-introducao-ao-r.png) - Curso-R, 16h.
 
-`R` -  Reporting with R Markdown Course, Datacamp, 4h.
+`R` -  Reporting with R Markdown Course, Datacamp.
 
-`R` -  Intermediate R Course, Datacamp, 4h.
+`R` -  Intermediate R Course, Datacamp.
 
 `R` -  Minicurso de R: RMarkdown, 13a aMostra Estatística - Curso-R e IME/USP,
 2h30.
@@ -212,9 +218,10 @@ N/A
 
 `R` -  Minicurso de R: EDA-R, 13a aMostra Estatística - Curso-R e IME/USP, 2h30.
 
-`Python` -  Intro to Python for Data Science Course, Datacamp, 4h.
+`Python` -  Intro to Python for Data Science Course, Datacamp.
 
-`R` -  Introduction to R Course, Datacamp, 4h.
+`R` -  Introduction to R Course, Datacamp.
+
 Lógica de Programação, Softblue, 20h.
 
 
