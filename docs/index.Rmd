@@ -6,12 +6,33 @@ output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
+    css: ["css/resume.css"]
     
 # to render into pdf: pagedown::chrome_print("docs/index.html")
+# If needed:
+# https://pagedown.rbind.io/
+# https://www.pagedmedia.org/about-paged-media/pagedjs-cheatsheet/
+# 
 ---
 
 Aside
 ================================================================================
+
+```{r eval=FALSE, fig.align='center', include=FALSE}
+knitr::include_graphics("img/beatriz.jpg")
+```
+
+
+Summary {#summary}
+--------------------------------------------------------------------------------
+
+Doctoral Student in Environmental Sciences at University of Sao Paulo (USP).
+
+R enthusiast. 
+
+R-Ladies Sao Paulo Co-organizer. 
+
+
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
@@ -23,12 +44,6 @@ Contact Info {#contact}
 - For more information, please contact me via email.
 
 
-Skills {#skills}
---------------------------------------------------------------------------------
-
-- ...
-
-
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
@@ -37,24 +52,22 @@ This resume was made with the R package [**pagedown**](https://github.com/rstudi
 Last updated on `r Sys.Date()`.
 
 
-
 Main
 ================================================================================
 
 Beatriz Milz {#title}
 --------------------------------------------------------------------------------
 
-
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ### University of São Paulo
 
-**Doctorate Student in Environmental Science**       <br> Institute of Energy and Environment <br> Graduate Program in Environmental Science
+**Doctoral Student in Environmental Science**       <br> Institute of Energy and Environment <br> Graduate Program in Environmental Science
 
 São Paulo, SP, Brazil
 
-2019 - (2022)
+2019 - Currently
 
 **Research project:** [Active Transpacency in the water resources management in Sao Paulo Macrometropolis using the INTRAG method](https://bv.fapesp.br/en/bolsas/185176/active-transparency-in-the-management-of-water-resources-in-the-sao-paulo-macrometropolis-using-the/)
 
@@ -92,26 +105,40 @@ Research Projects {data-icon=laptop}
 
 ### MacroAmb FAPESP
 
-FAPESP Thematic Project - [Environmental Governance of the Sao Paulo Macrometropolis in face of climate variability](https://bv.fapesp.br/en/auxilios/97000/environmental-governance-of-macrometropolis-paulista-in-face-of-climate-variability/)
+FAPESP Thematic Project - [Environmental Governance of the Sao Paulo Macrometropolis in face of climate variability](https://bv.fapesp.br/en/auxilios/97000/environmental-governance-of-macrometropolis-paulista-in-face-of-climate-variability/) - Process: 15/03804-9
 
-São Paulo, SP, Brazil
+N/A
 
-2018 -  
 
-FAPESP Process: 15/03804-9
+2018 - Currently  
 
-<br>
+
+Projects {data-icon=graduation-cap}
+--------------------------------------------------------------------------------
+### [R-Ladies Sao Paulo Co-organizer](https://www.meetup.com/pt-BR/rladies-sao-paulo/)
+
+https://rladies.org/
+
+N/A
+
+2018 - Currently
+
 
 Scientific Journals - Editorial Board {data-icon=book}
 --------------------------------------------------------------------------------
 
-### Editorial Secretary 
+### Editorial Secretary - [Journal Environment & Society](http://scielo.br/asoc)
 
-[Journal Environment & Society](http://scielo.br/asoc)
+N/A
 
-São Paulo, SP, Brazil
+N/A
 
-2018 - 
+2018 - Currently
+
+
+
+
+
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
@@ -132,3 +159,4 @@ Work Experience {data-icon=briefcase}
 São Paulo, SP, Brazil
 
 2014 - 2015
+

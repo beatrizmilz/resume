@@ -1,6 +1,6 @@
 @page{
   size: letter portrait;
-  margin: 0.5in 0.5in 0.5in 0.25in;
+  margin: 0.5in 0.25in 0.5in 0.25in;
 }
 
 *{
@@ -100,6 +100,7 @@ img{
   float: right;
   position: absolute;
   right: 0;
+  text-align: justify;
 }
 
 /* main */
