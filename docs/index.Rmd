@@ -40,6 +40,7 @@ Contact Info {#contact}
 - <i class="fa fa-envelope"></i> beatriz.milz@usp.br
 - <i class="fa fa-phone"></i> (+55) 11 98420-2780
 - <i class="fa fa-github"></i> [github.com/beatrizmilz](https://github.com/beatrizmilz)
+- <i class="fa fa-external-link-alt"></i> [Lattes CNPQ](http://lattes.cnpq.br/5150665880581477) 
 - <i class="fa fa-home"></i> https://beatrizmilz.github.io
 - For more information, please contact me via email.
 
@@ -48,6 +49,8 @@ Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
 This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+This resume is not complete.
 
 Last updated on `r Sys.Date()`.
 
@@ -113,7 +116,7 @@ N/A
 2018 - Currently  
 
 
-Projects {data-icon=graduation-cap}
+Projects {data-icon=share-alt}
 --------------------------------------------------------------------------------
 ### [R-Ladies Sao Paulo Co-organizer](https://www.meetup.com/pt-BR/rladies-sao-paulo/)
 
