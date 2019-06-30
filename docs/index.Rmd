@@ -23,11 +23,11 @@ Aside
 Summary {#summary}
 --------------------------------------------------------------------------------
 
-Doctoral Student in Environmental Science at University of Sao Paulo (USP).
+<i class="fas fa-graduation-cap"></i> Doctoral Student in Environmental Science at University of Sao Paulo (USP).
 
-R enthusiast. 
+<i class="fab fa-r-project"></i> R enthusiast. 
 
-R-Ladies Sao Paulo Co-organizer. 
+<i class="fab fa-meetup"></i> R-Ladies Sao Paulo Co-organizer. 
 
 
 
@@ -45,7 +45,7 @@ Contact Info {#contact}
 - <i class="fa fa-linkedin"></i> [Linkedin](https://br.linkedin.com/in/beatrizmilz) 
 
 
-- <i class="fa fa-home"></i> https://beatrizmilz.github.io
+- <i class="fa fa-home"></i> https://beatrizmilz.com
 
 - For more information, please contact me via email.
 
@@ -66,7 +66,7 @@ This resume is not complete.
 
 Code available on <i class="fa fa-github"></i>  [Github](https://github.com/beatrizmilz/resume). 
 
-Last updated on `r Sys.Date()`.
+Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf). 
 
 
 
@@ -176,6 +176,201 @@ São Paulo, SP, Brazil
 
 2014 - 2015
 
+Grants {data-icon=award}
+--------------------------------------------------------------------------------
+
+### [useR! 2019](https://user2019.r-project.org/)
+
+Diversity Scholarship - Travel and Conference
+
+Toulouse, France
+
+2019
+
+### [São Paulo Research Foundation (FAPESP)](https://bv.fapesp.br/en/bolsas/185176/active-transparency-in-the-management-of-water-resources-in-the-sao-paulo-macrometropolis-using-the/)
+
+May/2019 - Jan/2022 - Scholarships in Brazil - Doctorate
+
+São Paulo, SP, Brazil
+
+2019 - 2022
+
+```{r eval=FALSE, include=FALSE}
+
+Publications {data-icon=book-open}
+--------------------------------------------------------------------------------
+
+- Dialogos socioambientais
+- Capítulo livro paranapiacaba (nao lançado)
+- Capítulo livro adaptação (não lançado)
+- Anais serve? Anais do FORUM MACROAMB, e evento USP 2016
+```
+
+
+
+
+Oral Communications {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+### I Fórum de Governança Ambiental da Macrometrópole Paulista.
+
+MILZ, B.; JACOBI, P. R. Levantamento exploratório de estudos sobre a Governança Ambiental na Macrometrópole Paulista. 
+
+São Paulo, SP, Brazil
+
+2019
+
+
+###  II Simpósio Interdisciplinar de Ciência Ambiental
+
+MILZ, B.; MACEDO, B. N. M. ; JACOBI, P. R. Transparência na gestão de recursos hídricos e a interligação dos Sistemas Rio Grande e Alto Tietê.
+
+São Paulo, SP, Brazil
+
+2016 
+
+
+Poster Presentations {data-icon=calendar-check}
+--------------------------------------------------------------------------------
+
+### IV SER UFF - International Seminar on Statistics with R
+
+MILZ, B.; GONÇALVES PINTO, B. G.; WUNDERVALD, B.; SVAB, H.Ensino de R através da comunidade R-Ladies - Capítulo São Paulo
+
+Rio de Janeiro, RJ, Brazil
+
+2019
+
+
+### XVI Congresso Brasileiro de Limnologia 
+
+MILZ, B.; RIBEIRO, M. S. F. ; BITENCOURT, A. L. V. ; FREIRE-NORDI, C. S. Avaliação da qualidade da água do Corpo Central da represa Billings (São Paulo, SP) e mapeamento por sensoriamento remoto (Landsat-8/OLI).
+
+Rio de Janeiro, RJ, Brazil
+
+2017
+
+
+
+
+### 2º Simpósio em Análise Ambiental Integrada
+
+MILZ, B.; BITENCOURT, A. L. V. ; FREIRE-NORDI, C. S. Avaliação da qualidade da água e mapeamento por sensoriamento remoto (LANDSAT-8/OLI) do compartimento ambiental corpo central I da represa Billings (São Paulo, SP).
+
+Diadema, SP, Brazil
+
+2017
+
+
+
+### 1º Simpósio em Análise Ambiental Integrada
+
+MILZ, B.; FREIRE-NORDI, C. S. ; BITENCOURT, A. L. V. Avaliação da qualidade das águas superficiais do compartimento Corpo Central 1 da represa Billings, através do estudo de variáveis físicas e químicas e do monitoramento por sensoriamento remoto orbital (Landsat 8/OLI)
+
+Diadema, SP, Brazil
+
+2016
+
+Events attended {data-icon=calendar-check .break-after-me} 
+--------------------------------------------------------------------------------
+### 2019
+
+N/A
+
+N/A
+
+2019
+
+<i class="fas fa-angle-right"></i> IV SER UFF - International Seminar on Statistics with R.
+
+<i class="fas fa-angle-right"></i> I Fórum de Governança Ambiental da Macrometrópole Paulista.
+
+### 2018
+
+N/A
+
+N/A
+
+2018
+
+<i class="fas fa-angle-right"></i> 3a Conferência Brasileira de Jornalismo de Dados e Métodos Digitais (CODA BR), Open Knowledge Brasil, 18h.
+
+<i class="fas fa-angle-right"></i> WordCamp São Paulo 2018, 10h.
+
+<i class="fas fa-angle-right"></i> Oficina de Aprendizagem Social sobre Clima, IAG/USP, 6h.
+
+<i class="fas fa-angle-right"></i> Diálogos interdisciplinares sobre a Governança da Macrometrópole Paulista, MACROAMB/Fapesp.
+
+<i class="fas fa-angle-right"></i> Proposal Formulation Workshop - Small Grants Program: The role of ecosystem services in adapting to global change for Human Wellbeing (SGP-HW). Inter-American Institute for Global Change Research (IAI).
+
+### 2017
+
+N/A
+
+N/A
+
+2017
+
+
+<i class="fas fa-angle-right"></i> VI Encontro Internacional de Governança da Água: Fortalecimento da Governança e Ampliação da Participação como caminho para a justiça hídrica. Grupo de Acompanhamento e Estudos de Governança Ambiental (GovAmb).
+
+<i class="fas fa-angle-right"></i> VII Simpósio Ecologia de Reservatórios. UNESP Botucatu.
+
+<i class="fas fa-angle-right"></i> XVI Congresso Brasileiro de Limnologia.
+
+<i class="fas fa-angle-right"></i> II Simpósio em Análise Ambiental Integrada (II SINTEGRADA), Instituto de Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo (UNIFESP)
+
+### 2016
+
+N/A
+
+N/A
+
+2016
+
+<i class="fas fa-angle-right"></i> II Simpósio Interdisciplinar de Ciência Ambiental, Instituto de Energia e Ambiente da Universidade de São Paulo (IEE/USP)
+
+<i class="fas fa-angle-right"></i> I Simpósio em Análise Ambiental Integrada (I SINTEGRADA), Instituto de
+Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo (UNIFESP)
+
+### 2015
+
+N/A
+
+N/A
+
+2015
+
+<i class="fas fa-angle-right"></i> V Encontro Internacional de Governança da Água, Grupo de Acompanhamento
+e Estudos de Governança Ambiental (GovAmb)
+
+
+
+Events organized {data-icon=calendar-check}
+--------------------------------------------------------------------------------
+### I Fórum de Governança Ambiental da Macrometrópole Paulista.
+
+Organizing Committee
+
+São Paulo, SP, Brazil
+
+2019
+
+
+### 2º Simpósio em Análise Ambiental Integrada
+
+Organizing Committee
+
+Diadema, SP, Brazil
+
+2017
+
+### 1º Simpósio em Análise Ambiental Integrada
+
+Organizing Committee
+
+Diadema, SP, Brazil
+
+2016
 
 
 Meetup Presentations {data-icon=meetup} 
@@ -299,12 +494,6 @@ Registro, 4h.
 `GIS` - Geoprocessamento para Planejamento e Gestão Ambiental, SENAC, 32h.
 
 ```{r eval=FALSE, include=FALSE}
-Não encontrei certificado
- Atuação Socioambiental em Mananciais – Represa Billings e Guarapiranga,
-Universidade Federal de São Paulo, 40h.
- 
- `GIS` - Geoprocessamento para Planejamento e Gestão Ambiental, SENAC, 32h.
- 
 
 Retirei do currículo
  Avaliação de Impacto Ambiental nos Sistemas Aquáticos Continentais, XVI
@@ -326,12 +515,6 @@ Legislação Ambiental, SENAC, 40h.
 
 
 ```{r eval=FALSE, include=FALSE}
-Não encontrei certificado
-Expressão Verbal - desinibição ao falar em público, SENAC, 24h.
-
-Legislação Ambiental, SENAC, 40h.
-
- 
 
 Retirei do currículo
 
@@ -352,14 +535,6 @@ ACCESS 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação do 
 
 [Mudanças climáticas, recursos hídricos e educação ambiental](https://beatrizmilz.github.io/resume/certificates/2015/oficina_munic_Mudancas_climaticas.jpg), Oficina Municipal – Escola de cidadania e gestão pública, 14h.
 
-```{r eval=FALSE, include=FALSE}
-
-Excel 2010 Módulo II, Empresa de Tecnologia da Informação e Comunicação
-do Município de São Paulo (PRODAM-SP), 20h.
-
-ACCESS 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h.
-
-```
 
 ### 2014
 
@@ -379,51 +554,5 @@ N/A
 
 Excel 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h.
 
- 
-
-```{r eval=FALSE, include=FALSE}
-- PUBLICATIONS
-
-- ORAL COMMUNICATIONS
-
-- POSTER PRESENTATIONS
-- Grants: FAPESP, useR
-
-
-
-
-
-
-Events{data-icon=book} 
---------------------------------------------------------------------------------
- 2018 3a Conferência Brasileira de Jornalismo de Dados e Métodos Digitais (CODA
-BR), Open Knowledge Brasil, 18h.
- 2018 WordCamp São Paulo 2018, 10h.
- 2018 Oficina de Aprendizagem Social sobre Clima, IAG/USP, 6h.
- 2018 Diálogos interdisciplinares sobre a Governança da Macrometrópole Paulista,
-MACROAMB/Fapesp.
- 2018 Proposal Formulation Workshop - Small Grants Program: The role of ecosystem
-services in adapting to global change for Human Wellbeing (SGP-HW). Inter-
-American Institute for Global Change Research (IAI) .
- 2017 VI Encontro Internacional de Governança da Água: Fortalecimento da Governança
-e Ampliação da Participação como caminho para a justiça hídrica. Grupo de
-Acompanhamento e Estudos de Governança Ambiental (GovAmb).
- 2017 VII Simpósio Ecologia de Reservatórios. UNESP Botucatu.
- 2017 XVI Congresso Brasileiro de Limnologia.
- 2017 II Simpósio em Análise Ambiental Integrada (II SINTEGRADA), Instituto de
-Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo
-(UNIFESP)
- 2016 II Simpósio Interdisciplinar de Ciência Ambiental, Instituto de Energia e Ambiente
-da Universidade de São Paulo (IEE/USP)
- 2016 I Simpósio em Análise Ambiental Integrada (I SINTEGRADA), Instituto de
-Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo
-(UNIFESP)
- 2015 V Encontro Internacional de Governança da Água, Grupo de Acompanhamento
-e Estudos de Governança Ambiental (GovAmb)
- 2014 Instituições Públicas e Sociedade Enfrentando os Maus Tratos e o Abandono
-Animal, Grupo Especial de Combate aos Crimes Ambientais e de Parcelamento Irregular
-do Solo Urbano – GECAP
-
-```
 
 
