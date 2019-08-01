@@ -211,6 +211,15 @@ Publications {data-icon=book-open}
 
 Oral Communications {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
+### [useR! 2019](https://user2019.r-project.org/)
+
+MILZ, B.; WUNDERVALD, B. [The evolution and importance of the R-Ladies São Paulo chapter in Brazil.](https://beatrizmilz.github.io/useR2019/)
+
+Toulouse, Brazil
+
+2019
+
+
 ### I Fórum de Governança Ambiental da Macrometrópole Paulista.
 
 MILZ, B.; JACOBI, P. R. Levantamento exploratório de estudos sobre a Governança Ambiental na Macrometrópole Paulista. 
@@ -234,7 +243,7 @@ Poster Presentations {data-icon=calendar-check}
 
 ### IV SER UFF - International Seminar on Statistics with R
 
-MILZ, B.; GONÇALVES PINTO, B. G.; WUNDERVALD, B.; SVAB, H.Ensino de R através da comunidade R-Ladies - Capítulo São Paulo
+MILZ, B.; GONÇALVES PINTO, B. G.; WUNDERVALD, B.; SVAB, H. [Ensino de R através da comunidade R-Ladies - Capítulo São Paulo.](http://periodicos.uff.br/anaisdoser/article/view/29327)
 
 Rio de Janeiro, RJ, Brazil
 
@@ -270,7 +279,7 @@ Diadema, SP, Brazil
 
 2016
 
-Events attended {data-icon=calendar-check .break-after-me} 
+Events attended {data-icon=calendar-check} 
 --------------------------------------------------------------------------------
 ### 2019
 
@@ -280,9 +289,11 @@ N/A
 
 2019
 
-<i class="fas fa-angle-right"></i> IV SER UFF - International Seminar on Statistics with R.
+<i class="fas fa-angle-right"></i> [useR! 2019](https://user2019.r-project.org/) - Toulouse, France.
 
-<i class="fas fa-angle-right"></i> I Fórum de Governança Ambiental da Macrometrópole Paulista.
+<i class="fas fa-angle-right"></i> IV SER UFF - International Seminar on Statistics with R - Niterói, RJ, Brazil.
+
+<i class="fas fa-angle-right"></i> I Fórum de Governança Ambiental da Macrometrópole Paulista - São Paulo, SP, Brazil.
 
 ### 2018
 
@@ -292,13 +303,13 @@ N/A
 
 2018
 
-<i class="fas fa-angle-right"></i> 3a Conferência Brasileira de Jornalismo de Dados e Métodos Digitais (CODA BR), Open Knowledge Brasil, 18h.
+<i class="fas fa-angle-right"></i> 3a Conferência Brasileira de Jornalismo de Dados e Métodos Digitais (CODA BR), Open Knowledge Brasil - São Paulo, SP, Brazil - 18h.
 
-<i class="fas fa-angle-right"></i> WordCamp São Paulo 2018, 10h.
+<i class="fas fa-angle-right"></i> WordCamp São Paulo 2018  - São Paulo, SP, Brazil - 10h.
 
-<i class="fas fa-angle-right"></i> Oficina de Aprendizagem Social sobre Clima, IAG/USP, 6h.
+<i class="fas fa-angle-right"></i> Oficina de Aprendizagem Social sobre Clima, IAG/USP- São Paulo, SP, Brazil - 6h.
 
-<i class="fas fa-angle-right"></i> Diálogos interdisciplinares sobre a Governança da Macrometrópole Paulista, MACROAMB/Fapesp.
+<i class="fas fa-angle-right"></i> Diálogos interdisciplinares sobre a Governança da Macrometrópole Paulista, MACROAMB/Fapesp  - São Paulo, SP, Brazil.
 
 <i class="fas fa-angle-right"></i> Proposal Formulation Workshop - Small Grants Program: The role of ecosystem services in adapting to global change for Human Wellbeing (SGP-HW). Inter-American Institute for Global Change Research (IAI).
 
@@ -311,13 +322,13 @@ N/A
 2017
 
 
-<i class="fas fa-angle-right"></i> VI Encontro Internacional de Governança da Água: Fortalecimento da Governança e Ampliação da Participação como caminho para a justiça hídrica. Grupo de Acompanhamento e Estudos de Governança Ambiental (GovAmb).
+<i class="fas fa-angle-right"></i> VI Encontro Internacional de Governança da Água: Fortalecimento da Governança e Ampliação da Participação como caminho para a justiça hídrica. Grupo de Acompanhamento e Estudos de Governança Ambiental (GovAmb)  - São Paulo, SP, Brazil.
 
-<i class="fas fa-angle-right"></i> VII Simpósio Ecologia de Reservatórios. UNESP Botucatu.
+<i class="fas fa-angle-right"></i> VII Simpósio Ecologia de Reservatórios. UNESP Botucatu - Botucatu, SP, Brazil.
 
-<i class="fas fa-angle-right"></i> XVI Congresso Brasileiro de Limnologia.
+<i class="fas fa-angle-right"></i> XVI Congresso Brasileiro de Limnologia - Rio de Janeiro, RJ, Brazil.
 
-<i class="fas fa-angle-right"></i> II Simpósio em Análise Ambiental Integrada (II SINTEGRADA), Instituto de Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo (UNIFESP)
+<i class="fas fa-angle-right"></i> II Simpósio em Análise Ambiental Integrada (II SINTEGRADA), Instituto de Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo (UNIFESP) - Diadema, SP, Brazil.
 
 ### 2016
 
@@ -327,10 +338,9 @@ N/A
 
 2016
 
-<i class="fas fa-angle-right"></i> II Simpósio Interdisciplinar de Ciência Ambiental, Instituto de Energia e Ambiente da Universidade de São Paulo (IEE/USP)
+<i class="fas fa-angle-right"></i> II Simpósio Interdisciplinar de Ciência Ambiental, Instituto de Energia e Ambiente da Universidade de São Paulo (IEE/USP) - São Paulo, SP, Brazil.
 
-<i class="fas fa-angle-right"></i> I Simpósio em Análise Ambiental Integrada (I SINTEGRADA), Instituto de
-Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo (UNIFESP)
+<i class="fas fa-angle-right"></i> I Simpósio em Análise Ambiental Integrada (I SINTEGRADA), Instituto de Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo (UNIFESP) - Diadema, SP, Brazil.
 
 ### 2015
 
@@ -340,9 +350,7 @@ N/A
 
 2015
 
-<i class="fas fa-angle-right"></i> V Encontro Internacional de Governança da Água, Grupo de Acompanhamento
-e Estudos de Governança Ambiental (GovAmb)
-
+<i class="fas fa-angle-right"></i> V Encontro Internacional de Governança da Água, Grupo de Acompanhamento e Estudos de Governança Ambiental (GovAmb) - São Paulo, SP, Brazil.
 
 
 Events organized {data-icon=calendar-check}
