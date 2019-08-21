@@ -54,7 +54,9 @@ Languages {#languages}
 --------------------------------------------------------------------------------
 **Portuguese:** Native
 
-**English:** Advanced
+**English:** Proficient
+
+**Spanish:** Beginner
 
 
 Disclaimer {#disclaimer}
@@ -147,7 +149,7 @@ N/A
 Scientific Journals - Editorial Board {data-icon=book .break-after-me}
 --------------------------------------------------------------------------------
 
-### Editorial Secretary - [Journal Environment & Society](http://scielo.br/asoc)
+### Editorial Secretary - [Journal Ambiente & Sociedade](http://scielo.br/asoc)
 
 N/A
 
@@ -215,7 +217,7 @@ Oral Communications {data-icon=chalkboard-teacher}
 
 MILZ, B.; WUNDERVALD, B. [The evolution and importance of the R-Ladies São Paulo chapter in Brazil.](https://beatrizmilz.github.io/useR2019/)
 
-Toulouse, Brazil
+Toulouse, France
 
 2019
 
@@ -391,6 +393,9 @@ N/A
 N/A
 
 2019
+
+`R` - [“Dashboards, gráficos, mapas: Possibilidades de visualização de dados com R”](https://beatrizmilz.github.io/NerdzaoWeek/), in Portuguese, [Meetup Nerdzão - Nerdzão Week](https://nerdzao.netlify.com/).
+
 
 `R` - [“Communicating your results: creating presentations with R”](https://beatrizmilz.github.io/IV-SER-RLadies/), in Portuguese, Meetup R-Ladies Niteroi.
 
