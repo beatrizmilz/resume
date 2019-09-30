@@ -59,7 +59,11 @@ body{
   hyphens: auto;
 }
 
-h1, h2, h3{
+h1 {
+color: #555555;  
+}
+
+h2, h3{
   margin: 0;
   color: #000;
 }

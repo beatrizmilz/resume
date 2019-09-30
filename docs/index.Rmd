@@ -64,7 +64,7 @@ Disclaimer {#disclaimer}
 
 This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
-This resume is not complete.
+This resume is **not** complete.
 
 Code available on <i class="fa fa-github"></i>  [Github](https://github.com/beatrizmilz/resume). 
 
@@ -181,6 +181,15 @@ São Paulo, SP, Brazil
 Grants {data-icon=award}
 --------------------------------------------------------------------------------
 
+### [LatinR 2019](https://latin-r.com/) - Latinamerican Conference About the Use of R in R&D
+
+Diversity Scholarship - Travel and Conference
+
+Santiago, Chile
+
+2019
+
+
 ### [useR! 2019](https://user2019.r-project.org/)
 
 Diversity Scholarship - Travel and Conference
@@ -197,14 +206,51 @@ São Paulo, SP, Brazil
 
 2019 - 2022
 
-```{r eval=FALSE, include=FALSE}
-
-Publications {data-icon=book-open}
+Events organized {data-icon=calendar-check}
 --------------------------------------------------------------------------------
+### I Fórum de Governança Ambiental da Macrometrópole Paulista.
 
+Organizing Committee
+
+São Paulo, SP, Brazil
+
+2019
+
+
+### 2º Simpósio em Análise Ambiental Integrada
+
+Organizing Committee
+
+Diadema, SP, Brazil
+
+2017
+
+### 1º Simpósio em Análise Ambiental Integrada
+
+Organizing Committee
+
+Diadema, SP, Brazil
+
+2016
+
+
+Publications {data-icon=book-open} 
+--------------------------------------------------------------------------------
+### Anais do Seminário Internacional de Estatística com R
+
+MILZ, B.; GONÇALVES PINTO, B. G.; WUNDERVALD, B.; SVAB, H. [Ensino de R através da comunidade R-Ladies - Capítulo São Paulo.](http://periodicos.uff.br/anaisdoser/article/view/29327)
+
+N/A
+
+2019
+
+
+
+```{r eval=FALSE, include=FALSE}
+ADICIONAR:
 - Dialogos socioambientais
 - Capítulo livro paranapiacaba (nao lançado)
-- Capítulo livro adaptação (não lançado)
+- Capítulo livro adaptação (lançado!)
 - Anais serve? Anais do FORUM MACROAMB, e evento USP 2016
 ```
 
@@ -245,7 +291,7 @@ Poster Presentations {data-icon=calendar-check}
 
 ### IV SER UFF - International Seminar on Statistics with R
 
-MILZ, B.; GONÇALVES PINTO, B. G.; WUNDERVALD, B.; SVAB, H. [Ensino de R através da comunidade R-Ladies - Capítulo São Paulo.](http://periodicos.uff.br/anaisdoser/article/view/29327)
+MILZ, B.; GONÇALVES PINTO, B. G.; WUNDERVALD, B.; SVAB, H. [Ensino de R através da comunidade R-Ladies - Capítulo São Paulo.](https://beatrizmilz.github.io/resume/certificates/2019/Certificado-SER-Poster.pdf)
 
 Rio de Janeiro, RJ, Brazil
 
@@ -281,106 +327,43 @@ Diadema, SP, Brazil
 
 2016
 
-Events attended {data-icon=calendar-check} 
+Workshops taught {data-icon=chalkboard-teacher} 
 --------------------------------------------------------------------------------
-### 2019
 
-N/A
+### `R` - [Workshop in Portuguese - Apresentações no R ⚔ com xaringan](https://beatrizmilz.github.io/aMostra-IME-2019-Xaringan/)
 
-N/A
-
-2019
-
-<i class="fas fa-angle-right"></i> [useR! 2019](https://user2019.r-project.org/) - Toulouse, France.
-
-<i class="fas fa-angle-right"></i> IV SER UFF - International Seminar on Statistics with R - Niterói, RJ, Brazil.
-
-<i class="fas fa-angle-right"></i> I Fórum de Governança Ambiental da Macrometrópole Paulista - São Paulo, SP, Brazil.
-
-### 2018
-
-N/A
-
-N/A
-
-2018
-
-<i class="fas fa-angle-right"></i> 3a Conferência Brasileira de Jornalismo de Dados e Métodos Digitais (CODA BR), Open Knowledge Brasil - São Paulo, SP, Brazil - 18h.
-
-<i class="fas fa-angle-right"></i> WordCamp São Paulo 2018  - São Paulo, SP, Brazil - 10h.
-
-<i class="fas fa-angle-right"></i> Oficina de Aprendizagem Social sobre Clima, IAG/USP- São Paulo, SP, Brazil - 6h.
-
-<i class="fas fa-angle-right"></i> Diálogos interdisciplinares sobre a Governança da Macrometrópole Paulista, MACROAMB/Fapesp  - São Paulo, SP, Brazil.
-
-<i class="fas fa-angle-right"></i> Proposal Formulation Workshop - Small Grants Program: The role of ecosystem services in adapting to global change for Human Wellbeing (SGP-HW). Inter-American Institute for Global Change Research (IAI).
-
-### 2017
-
-N/A
-
-N/A
-
-2017
-
-
-<i class="fas fa-angle-right"></i> VI Encontro Internacional de Governança da Água: Fortalecimento da Governança e Ampliação da Participação como caminho para a justiça hídrica. Grupo de Acompanhamento e Estudos de Governança Ambiental (GovAmb)  - São Paulo, SP, Brazil.
-
-<i class="fas fa-angle-right"></i> VII Simpósio Ecologia de Reservatórios. UNESP Botucatu - Botucatu, SP, Brazil.
-
-<i class="fas fa-angle-right"></i> XVI Congresso Brasileiro de Limnologia - Rio de Janeiro, RJ, Brazil.
-
-<i class="fas fa-angle-right"></i> II Simpósio em Análise Ambiental Integrada (II SINTEGRADA), Instituto de Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo (UNIFESP) - Diadema, SP, Brazil.
-
-### 2016
-
-N/A
-
-N/A
-
-2016
-
-<i class="fas fa-angle-right"></i> II Simpósio Interdisciplinar de Ciência Ambiental, Instituto de Energia e Ambiente da Universidade de São Paulo (IEE/USP) - São Paulo, SP, Brazil.
-
-<i class="fas fa-angle-right"></i> I Simpósio em Análise Ambiental Integrada (I SINTEGRADA), Instituto de Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo (UNIFESP) - Diadema, SP, Brazil.
-
-### 2015
-
-N/A
-
-N/A
-
-2015
-
-<i class="fas fa-angle-right"></i> V Encontro Internacional de Governança da Água, Grupo de Acompanhamento e Estudos de Governança Ambiental (GovAmb) - São Paulo, SP, Brazil.
-
-
-Events organized {data-icon=calendar-check}
---------------------------------------------------------------------------------
-### I Fórum de Governança Ambiental da Macrometrópole Paulista.
-
-Organizing Committee
+[14ª aMostra Estatística](https://www.ime.usp.br/~amostra/) - Institute of Mathematics and Statistics, University of São Paulo (IME/USP)
 
 São Paulo, SP, Brazil
 
 2019
 
 
-### 2º Simpósio em Análise Ambiental Integrada
+### `R` - [Workshop in Portuguese - Communicating your results: creating presentations with R](https://beatrizmilz.github.io/IV-SER-RLadies/)
 
-Organizing Committee
+[IV SER UFF - International Seminar on Statistics with R](http://ser.uff.br/) - [Certificate](https://beatrizmilz.github.io/resume/certificates/2019/Cert_Minicurso_Beatriz Milz2.pdf)
 
-Diadema, SP, Brazil
+Niterói, RJ, Brazil
 
-2017
+2019
 
-### 1º Simpósio em Análise Ambiental Integrada
 
-Organizing Committee
+### `R` - Workshop in English -  Introduction to R (R-Ladies São Paulo)
 
-Diadema, SP, Brazil
+2018 CODATA-RDA School of Research Data Science - ICTP-SAIFR/NCC-UNESP
 
-2016
+São Paulo, SP, Brazil
+
+2018
+
+
+### `R` - Workshop in Portuguese -  Introduction to R
+
+Federal University of ABC (UFABC)
+
+São Bernardo do Campo, SP, Brazil
+
+2018
 
 
 Meetup Presentations {data-icon=meetup} 
@@ -394,10 +377,12 @@ N/A
 
 2019
 
+`R` - ["Primeiros passos utilizando o Git e GitHub no RStudio"](https://beatrizmilz.github.io/RLadies-Git-RStudio-2019/), in Portuguese, Meetup R-Ladies São Paulo.
+
+`R` - ["Introdução ao pacote xaringan - Criando apresentações com R"](https://beatrizmilz.github.io/IME-27-08-2019/),  in Portuguese,  Institute of Mathematics and Statistics, University of São Paulo (IME/USP).
+
 `R` - [“Dashboards, gráficos, mapas: Possibilidades de visualização de dados com R”](https://beatrizmilz.github.io/NerdzaoWeek/), in Portuguese, [Meetup Nerdzão - Nerdzão Week](https://nerdzao.netlify.com/).
 
-
-`R` - [“Communicating your results: creating presentations with R”](https://beatrizmilz.github.io/IV-SER-RLadies/), in Portuguese, Meetup R-Ladies Niteroi.
 
 `R` - [“R Workshop - Intermediate”](https://beatrizmilz.github.io/2019-02-R-Interm-R-LadiesSP/#), in Portuguese, Meetup R-Ladies São Paulo.
 
@@ -414,26 +399,154 @@ N/A
 
 `R` - [“Communicating your results: creating presentations with R”](https://beatrizmilz.github.io/apresentacao_RLadies_xaringan/), in Portuguese, Meetup R-Ladies São Paulo.
 
-Other presentations  {data-icon=chalkboard-teacher .break-after-me} 
+
+
+Events attended {data-icon=calendar-check} 
 --------------------------------------------------------------------------------
-### 2018
+
+### [LatinR 2019](https://latin-r.com/)
+
+Latinamerican Conference About the Use of R in R&D
+
+Santiago, Chile
+
+2019
+
+### [useR! 2019](https://user2019.r-project.org/)
+
+[Certificate](https://beatrizmilz.github.io/resume/certificates/2019/certificate_96-useR.pdf)
+
+Toulouse, France
+
+2019
+
+
+###  [IV SER UFF - International Seminar on Statistics with R](http://ser.uff.br/)
+
+[Certificate](https://beatrizmilz.github.io/resume/certificates/2019/ser-participacao-CertificadoBeatriz Milz.pdf)
+
+Niterói, RJ, Brazil
+
+2019
+
+
+### I Fórum de Governança Ambiental da Macrometrópole Paulista
 
 N/A
 
-N/A
+São Paulo, SP, Brazil
+
+2019
+
+
+```{r eval=FALSE, include=FALSE}
+# procurar esse certificado! I Fórum de Governança Ambiental da Macrometrópole Paulista
+```
+
+
+### 3a Conferência Brasileira de Jornalismo de Dados e Métodos Digitais (CODA BR)
+
+Open Knowledge Brasil - 18h
+
+São Paulo, SP, Brazil
 
 2018
 
-`R` - Introduction to R (R-Ladies São Paulo) - 2018 CODATA-RDA School of Research Data Science, in English, ICTP-SAIFR/NCC-UNESP.
 
-`R` - Introduction to R Workshop, in Portuguese, Federal University of ABC (UFABC).
+### WordCamp São Paulo 2018
 
-`R` - Introduction to R Workshop,  in Portuguese, Institute of Energy and Environment - University of Sao Paulo (IEE/USP).
+10h
 
+São Paulo, SP, Brazil
+
+2018
+
+
+### Oficina de Aprendizagem Social sobre Clima
+
+IAG - University of Sao Paulo - 6h 
+
+São Paulo, SP, Brazil
+
+2018
+
+
+### Diálogos interdisciplinares sobre a Governança da Macrometrópole Paulista
+
+MACROAMB/Fapesp
+
+São Paulo, SP, Brazil
+
+2018
+
+
+### VI Encontro Internacional de Governança da Água
+
+Grupo de Acompanhamento e Estudos de Governança Ambiental (GovAmb)
+
+São Paulo, SP, Brazil
+
+2017
+
+
+### VII Simpósio Ecologia de Reservatórios
+
+UNESP Botucatu
+
+Botucatu, SP, Brazil
+
+2017
+
+
+### XVI Congresso Brasileiro de Limnologia
+
+N/A
+
+Rio de Janeiro, RJ, Brazil
+
+2017
+
+
+
+### II Simpósio em Análise Ambiental Integrada (II SINTEGRADA)
+
+Instituto de Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo (UNIFESP)
+
+Diadema, SP, Brazil
+
+2017
+
+
+### II Simpósio Interdisciplinar de Ciência Ambiental
+
+Institute of Energy and Environment, University of São Paulo (IEE/USP)
+
+São Paulo, SP, Brazil
+
+2016
+
+### I Simpósio em Análise Ambiental Integrada (I SINTEGRADA)
+
+Instituto de Ciências Ambientais, Químicas e Farmacêuticas da Universidade Federal de São Paulo (UNIFESP)
+
+Diadema, SP, Brazil
+
+2016
+
+
+### V Encontro Internacional de Governança da Água
+
+Grupo de Acompanhamento e Estudos de Governança Ambiental (GovAmb)
+
+São Paulo, SP, Brazil
+
+2015
 
 
 Short courses Attended {data-icon=book} 
 --------------------------------------------------------------------------------
+
+
 ### 2019
 
 N/A
@@ -441,6 +554,10 @@ N/A
 N/A
 
 2019
+
+[IV Curso de Atualização SciELO-ScholarOne](https://beatrizmilz.github.io/resume/certificates/2019/scielo-scholarone.pdf) - Programa SciELO/FAPESP
+
+[III Workshop para Monitoramento de Bacias Hidrográficas](https://beatrizmilz.github.io/resume/certificates/2019/fealq-workshop-bacias.pdf) - Fundação de Estudos Agrários Luiz de Queiroz (FEALQ), 40h.
 
 `R` - [R Programming](https://beatrizmilz.github.io/resume/certificates/2019/DS-2-Coursera-5R6SZKQCCYJ4.pdf) -  Coursera/Johns Hopkins University
 
@@ -463,6 +580,15 @@ N/A
 `R` - [Intermediate R](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-intermediate-r-practice.pdf) - Practice Course, Datacamp.
 
 
+### Proposal Formulation Workshop - Small Grants Program 
+
+The role of ecosystem services in adapting to global change for Human Wellbeing (SGP-HW). Inter-American Institute for Global Change Research (IAI)
+
+Online
+
+2018
+
+
 ### 2018
 
 N/A
@@ -470,9 +596,6 @@ N/A
 N/A
 
 2018
-
-
-
 
 
 `R` -  [Reporting with R Markdown Course](certificates/2018/datacamp-reporting-with-rmarkdown.pdf), Datacamp.
