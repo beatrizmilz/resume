@@ -259,7 +259,7 @@ ADICIONAR:
 
 Oral Communications {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
-### [useR! 2019](https://user2019.r-project.org/)
+### [useR! 2019](https://user2019.r-project.org/) - [Youtube Video](https://youtu.be/2HK6hjwhdRk?t=880)
 
 MILZ, B.; WUNDERVALD, B. [The evolution and importance of the R-Ladies São Paulo chapter in Brazil.](https://beatrizmilz.github.io/useR2019/)
 
