@@ -31,14 +31,14 @@ R-Ladies Sao Paulo Co-organizer.
 ```{r echo=FALSE, out.width="10%"}
 knitr::include_graphics("img/carpentries-icon.png")
 ```
-Carpentries Instructor
+Carpentries Instructor.
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> beatriz.milz@usp.br
 
-- <i class="fa fa-github"></i>[GitHub](https://github.com/beatrizmilz)
+- <i class="fa fa-github"></i> [GitHub](https://github.com/beatrizmilz)
 
 - <i class="fa fa-external-link-alt"></i> [Lattes CNPQ](http://lattes.cnpq.br/5150665880581477) 
 
@@ -131,7 +131,7 @@ N/A
 2018 - Currently  
 
 
-Projects {data-icon=share-alt}
+Projects {data-icon=share-alt .break-after-me}
 --------------------------------------------------------------------------------
 
 ### [Instructor - The Carpentries](https://carpentries.org/instructors/)
@@ -153,7 +153,7 @@ N/A
 
 
 
-Scientific Journals - Editorial Board {data-icon=book .break-after-me}
+Scientific Journals - Editorial Board {data-icon=book }
 --------------------------------------------------------------------------------
 
 ### Editorial Secretary - [Journal Ambiente & Sociedade](http://scielo.br/asoc)
@@ -376,35 +376,54 @@ São Bernardo do Campo, SP, Brazil
 Meetup Presentations {data-icon=meetup} 
 --------------------------------------------------------------------------------
 
-### 2019
+### `R` - [Primeiros passos utilizando o Git e GitHub no RStudio](https://beatrizmilz.github.io/RLadies-Git-RStudio-2019/) 
 
-N/A
+[Meetup R-Ladies São Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/) - In Portuguese
 
-N/A
+São Paulo
 
 2019
 
-`R` - ["Primeiros passos utilizando o Git e GitHub no RStudio"](https://beatrizmilz.github.io/RLadies-Git-RStudio-2019/), in Portuguese, Meetup R-Ladies São Paulo.
+### `R` - ["Introdução ao pacote xaringan - Criando apresentações com R](https://beatrizmilz.github.io/IME-27-08-2019/)
 
-`R` - ["Introdução ao pacote xaringan - Criando apresentações com R"](https://beatrizmilz.github.io/IME-27-08-2019/),  in Portuguese,  Institute of Mathematics and Statistics, University of São Paulo (IME/USP).
+Institute of Mathematics and Statistics, University of São Paulo (IME/USP) - In Portuguese
 
-`R` - [“Dashboards, gráficos, mapas: Possibilidades de visualização de dados com R”](https://beatrizmilz.github.io/NerdzaoWeek/), in Portuguese, [Meetup Nerdzão - Nerdzão Week](https://nerdzao.netlify.com/).
+São Paulo, SP, Brazil
 
-
-`R` - [“R Workshop - Intermediate”](https://beatrizmilz.github.io/2019-02-R-Interm-R-LadiesSP/#), in Portuguese, Meetup R-Ladies São Paulo.
-
-`R` - [“R Workshop - Basic”](https://maryms.github.io/2019-02-R-Basics-R-LadiesSP/), in Portuguese, Meetup R-Ladies São Paulo.
+2019
 
 
-### 2018
+### `R` - [Dashboards, gráficos, mapas: Possibilidades de visualização de dados com R](https://beatrizmilz.github.io/NerdzaoWeek/)
 
-N/A
+[Meetup Nerdzão - Nerdzão Week](https://nerdzao.netlify.com/) - In Portuguese
 
-N/A
+São Paulo
+
+2019
+
+### `R` - [R Workshop - Intermediate](https://beatrizmilz.github.io/2019-02-R-Interm-R-LadiesSP/#) 
+
+[Meetup R-Ladies São Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/) - In Portuguese
+
+São Paulo
+
+2019
+
+### `R` - [R Workshop - Basic](https://maryms.github.io/2019-02-R-Basics-R-LadiesSP/) 
+
+[Meetup R-Ladies São Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/) - In Portuguese
+
+São Paulo
+
+2019
+
+### `R` - [Communicating your results: creating presentations with R](https://beatrizmilz.github.io/apresentacao_RLadies_xaringan/)
+
+[Meetup R-Ladies São Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/) - In Portuguese
+
+São Paulo
 
 2018
-
-`R` - [“Communicating your results: creating presentations with R”](https://beatrizmilz.github.io/apresentacao_RLadies_xaringan/), in Portuguese, Meetup R-Ladies São Paulo.
 
 
 
@@ -553,39 +572,116 @@ São Paulo, SP, Brazil
 Short courses Attended {data-icon=book} 
 --------------------------------------------------------------------------------
 
+### [IV Curso de Atualização SciELO-ScholarOne](https://beatrizmilz.github.io/resume/certificates/2019/scielo-scholarone.pdf)
 
-### 2019
+Programa SciELO/FAPESP
 
-N/A
-
-N/A
+São Paulo
 
 2019
 
-[IV Curso de Atualização SciELO-ScholarOne](https://beatrizmilz.github.io/resume/certificates/2019/scielo-scholarone.pdf) - Programa SciELO/FAPESP
+### [III Workshop para Monitoramento de Bacias Hidrográficas](https://beatrizmilz.github.io/resume/certificates/2019/fealq-workshop-bacias.pdf)
 
-[III Workshop para Monitoramento de Bacias Hidrográficas](https://beatrizmilz.github.io/resume/certificates/2019/fealq-workshop-bacias.pdf) - Fundação de Estudos Agrários Luiz de Queiroz (FEALQ), 40h.
+Fundação de Estudos Agrários Luiz de Queiroz (FEALQ), 40h.
 
-`R` - [R Programming](https://beatrizmilz.github.io/resume/certificates/2019/DS-2-Coursera-5R6SZKQCCYJ4.pdf) -  Coursera/Johns Hopkins University
+Piracicaba, SP, Brazil
 
-`R` - [The Data Scientist’s Toolbox](https://beatrizmilz.github.io/resume/certificates/2019/DS-1-Coursera-THZN7SCGDL57.pdf) -  Coursera/Johns Hopkins University
+2019
 
-`R` - [Dashboards with R](https://beatrizmilz.github.io/resume/certificates/2019/curso-r-dashboards.pdf) - Curso-R, 18h.
+### `R` - [Getting and Cleaning Data](https://beatrizmilz.github.io/resume/certificates/2019/DS-3-Coursera-P96N24LYPEMV.pdf) - Data Science Specialization 
 
-`R` - [Building web applications in R using Shiny](https://beatrizmilz.github.io/resume/certificates/2019/ser_shiny.pdf) - Dean Atalli & IV Seminário Internacional de Estatística com R, 3h.
+Coursera/Johns Hopkins University
 
-`R` -  [Web Scraping with R](https://beatrizmilz.github.io/resume/certificates/2019/curso-r-web-scraping.pdf) - Curso-R, 8h.
+Online
 
-`R` - [Working with geospatial data in R](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-working-with-geospatial-data.pdf), Datacamp.
+2019
 
-`R` - [Introduction to the Tidyverse](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-introduction-to-the-tidyverse.pdf), Datacamp.
 
-`R` - [R Programming Track](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-r-programming-track.pdf), Datacamp.
+### `R` - [R Programming](https://beatrizmilz.github.io/resume/certificates/2019/DS-2-Coursera-5R6SZKQCCYJ4.pdf) - Data Science Specialization 
 
-`R` - [Writing functions with R](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-writing-functions-in-R.pdf), Datacamp.
+Coursera/Johns Hopkins University
 
-`R` - [Intermediate R](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-intermediate-r-practice.pdf) - Practice Course, Datacamp.
+Online
 
+2019
+
+### `R` - [The Data Scientist’s Toolbox](https://beatrizmilz.github.io/resume/certificates/2019/DS-1-Coursera-THZN7SCGDL57.pdf) - Data Science Specialization 
+
+Coursera/Johns Hopkins University
+
+Online
+
+2019
+
+
+### `R` - [Dashboards with R](https://beatrizmilz.github.io/resume/certificates/2019/curso-r-dashboards.pdf)
+
+[Curso-R](https://www.curso-r.com/), 18h
+
+São Paulo, SP, Brazil
+
+2019
+
+
+### `R` - [Building web applications in R using Shiny](https://beatrizmilz.github.io/resume/certificates/2019/ser_shiny.pdf)
+
+Dean Atalli & IV Seminário Internacional de Estatística com R, 3h.
+
+Niterói, RJ, Brazil
+
+2019
+
+### `R` -  [Web Scraping with R](https://beatrizmilz.github.io/resume/certificates/2019/curso-r-web-scraping.pdf) 
+
+[Curso-R](https://www.curso-r.com/), 8h
+
+São Paulo, SP, Brazil
+
+2019
+
+### `R` - [Working with geospatial data in R](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-working-with-geospatial-data.pdf)
+
+Datacamp
+
+Online
+
+2019
+
+### `R` - [Introduction to the Tidyverse](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-introduction-to-the-tidyverse.pdf)
+
+Datacamp
+
+Online
+
+2019
+
+
+
+
+### `R` - [R Programming Track](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-r-programming-track.pdf)
+
+Datacamp
+
+Online
+
+2019
+
+
+### `R` - [Writing functions with R](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-writing-functions-in-R.pdf)
+
+Datacamp
+
+Online
+
+2019
+
+### `R` - [Intermediate R - Practice Course](https://beatrizmilz.github.io/resume/certificates/2019/datacamp-intermediate-r-practice.pdf)
+
+Datacamp
+
+Online
+
+2019
 
 ### Proposal Formulation Workshop - Small Grants Program 
 
@@ -595,107 +691,171 @@ Online
 
 2018
 
+### `R` - [Reporting with R Markdown Course](certificates/2018/datacamp-reporting-with-rmarkdown.pdf)
 
-### 2018
+Datacamp
 
-N/A
+Online
 
-N/A
+2018
+
+### `R` - [Intermediate R Course](certificates/2018/datacamp-intermediate-R.pdf)
+
+Datacamp
+
+Online
+
+2018
+
+### `R` -  [Introduction to R Programming](https://beatrizmilz.github.io/resume/certificates/2018/curso-r-introducao-ao-r.png)
+
+[Curso-R](https://www.curso-r.com/), 16h
+
+São Paulo, SP, Brazil
+
+2018
+
+### `Python` -  [Intro to Python for Data Science Course](https://beatrizmilz.github.io/resume/certificates/2018/datacamp-introduction-to-python.pdf)
+
+Datacamp
+
+Online
+
+2018
+
+### `R` - [Introduction to R Course](https://beatrizmilz.github.io/resume/certificates/2018/datacamp-introduction-to-r.pdf)
+
+Datacamp
+
+Online
 
 2018
 
 
-`R` -  [Reporting with R Markdown Course](certificates/2018/datacamp-reporting-with-rmarkdown.pdf), Datacamp.
+### [Lógica de Programação](https://beatrizmilz.github.io/resume/certificates/2018/Soft-blue-Logica-de-Programacao.pdf)
 
-`R` -  [Intermediate R Course](certificates/2018/datacamp-intermediate-R.pdf), Datacamp.
+Softblue, 20h
 
+Online
 
+2018
 
-`R` - [Introduction to R Programming](https://beatrizmilz.github.io/resume/certificates/2018/curso-r-introducao-ao-r.png) - Curso-R, 16h.
+### `GIS` - [Workshop de QGIS – Acessando dados abertos e georreferenciamento](https://beatrizmilz.github.io/resume/certificates/2017/fna_geotecnologia_workshop_dados_abertos.pdf)
 
-`Python` -  [Intro to Python for Data Science Course](https://beatrizmilz.github.io/resume/certificates/2018/datacamp-introduction-to-python.pdf), Datacamp.
+Estúdio Registro, 4h
 
-`R` -  [Introduction to R Course](https://beatrizmilz.github.io/resume/certificates/2018/datacamp-introduction-to-r.pdf), Datacamp.
-
-[Lógica de Programação](https://beatrizmilz.github.io/resume/certificates/2018/Soft-blue-Logica-de-Programacao.pdf), Softblue, 20h.
-
-
-
-
-### 2017
-
-N/A
-
-N/A
+São Paulo, SP, Brazil
 
 2017
 
 
-`GIS` - [Workshop de QGIS – Acessando dados abertos e georreferenciamento](https://beatrizmilz.github.io/resume/certificates/2017/fna_geotecnologia_workshop_dados_abertos.pdf), Estúdio
-Registro, 4h.
+### `GIS` - Geoprocessamento para Planejamento e Gestão Ambiental
 
-`GIS` - Geoprocessamento para Planejamento e Gestão Ambiental, SENAC, 32h.
+SENAC, 32h
 
-```{r eval=FALSE, include=FALSE}
+São Bernardo do Campo, SP, Brazil
 
-Retirei do currículo
- Avaliação de Impacto Ambiental nos Sistemas Aquáticos Continentais, XVI
-Congresso Brasileiro de Limnologia, 5h.
-```
+2017
 
+### Avaliação de Impacto Ambiental nos Sistemas Aquáticos Continentais
 
-### 2016
+XVI Congresso Brasileiro de Limnologia, 5h.
 
-N/A
+Rio de Janeiro, RJ, Brazil
 
-N/A
+2017
+
+### Expressão Verbal - Desinibição ao falar em público
+
+SENAC, 24h
+
+São Bernardo do Campo, SP, Brazil
 
 2016
 
-Expressão Verbal - desinibição ao falar em público, SENAC, 24h.
+### Legislação Ambiental
 
-Legislação Ambiental, SENAC, 40h.
+SENAC, 40h
 
+São Bernardo do Campo, SP, Brazil
 
-```{r eval=FALSE, include=FALSE}
+2016
 
-Retirei do currículo
+### Elaboração, Avaliação e Gestão de Projetos Socioambientais
 
-Elaboração, Avaliação e Gestão de Projetos Socioambientais, Serviço Municipal de Saneamento Ambiental de Santo André (SEMASA), 10h.
-```
+Serviço Municipal de Saneamento Ambiental de Santo André (SEMASA), 10h.
 
-### 2015
+Santo André, SP, Brazil
 
-N/A
+2016
 
-N/A
+### Excel 2010 Módulo II
+
+Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h
+
+São Paulo, SP, Brazil
 
 2015
 
-Excel 2010 Módulo II, Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h.
+### ACCESS 2010 Módulo I
 
-ACCESS 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h.
+Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h
 
-[Mudanças climáticas, recursos hídricos e educação ambiental](https://beatrizmilz.github.io/resume/certificates/2015/oficina_munic_Mudancas_climaticas.jpg), Oficina Municipal – Escola de cidadania e gestão pública, 14h.
+São Paulo, SP, Brazil
+
+2015
 
 
-### 2014
+### [Mudanças climáticas, recursos hídricos e educação ambiental](https://beatrizmilz.github.io/resume/certificates/2015/oficina_munic_Mudancas_climaticas.jpg)
 
-N/A
+Oficina Municipal – Escola de cidadania e gestão pública, 14h
 
-N/A
+São Paulo, SP, Brazil
+
+2015
+
+### `GIS` - Mapa Digital da Cidade – MDC
+
+Departamento de Produção e Análise de Informação – DEINFO da Secretaria Municipal de Desenvolvimento Urbano – SMDU, 3h
+
+São Paulo, SP, Brazil
 
 2014
 
-`GIS` - Mapa Digital da Cidade – MDC, Departamento de Produção e Análise de Informação – DEINFO da Secretaria Municipal de Desenvolvimento Urbano – SMDU, 3h.
+### `GIS` - Uso do SIG-GCM e Capacitação do Aplicativo GEO-SIG-GCM
 
-`GIS` - Uso do SIG-GCM e Capacitação do Aplicativo GEO-SIG-GCM, Guarda Civil Metropolitana/SMSU/PMSP, 8h.
+Guarda Civil Metropolitana/Secretaria Municipal de Segurança Urbana/Prefeitura Municipal de São Paulo, 8h
 
-`GIS` - Introdução aos Sistemas de Informação Geográfica – Prática com Quantum GIS, Instituto GEOeduc, 8h.
+São Paulo, SP, Brazil
 
-`GIS` - Introdução ao Processamento Digital de Imagens – Prática com Quantum GIS Instituto GEOeduc, 8h.
+2014
 
-Excel 2010 Módulo I, Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h.
+
+### `GIS` - Introdução ao Processamento Digital de Imagens – Prática com Quantum GIS
+
+Instituto GEOeduc, 8h
+
+São Paulo, SP, Brazil
+
+2014
+
+
+### `GIS` - Introdução aos Sistemas de Informação Geográfica – Prática com Quantum GIS
+
+Instituto GEOeduc, 8h
+
+São Paulo, SP, Brazil
+
+2014
+
+### Excel 2010 Módulo I
+
+Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo (PRODAM-SP), 20h
+
+São Paulo, SP, Brazil
+
+2014
+
 
 
 
