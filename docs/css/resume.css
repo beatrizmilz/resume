@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Montserrat&display=swap');
+
 @page{
   size: letter portrait;
   margin: 0.5in 0.25in 0.5in 0.25in;
@@ -14,7 +16,7 @@
   --content-width: calc(var(--page-width) - var(--margin-right) - var(--margin-left));
   --root-font-size: 12pt;
   --sidebar-width: 13rem;
-  --sidebar-background-color: #f2f2f2;
+  --sidebar-background-color: #f1ecf5;
   --main-width: calc(var(--content-width) - var(--sidebar-width));
   --decorator-horizontal-margin: 0.2in;
 
@@ -52,7 +54,7 @@ html {
 
 body{
   width: var(--content-width);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   line-height: 1.4;
   color: #444;
@@ -60,12 +62,18 @@ body{
 }
 
 h1 {
-color: #555555;  
+font-family: 'Lexend Deca', sans-serif;
+color: #88398a;  
 }
+
+h2 {
+color: #88398a;  
+}
+
 
 h2, h3{
   margin: 0;
-  color: #000;
+
 }
 
 #main > h1, #aside > h1, #disclaimer > h2 {
