@@ -59,8 +59,8 @@ Aside
 <i class="fas fa-download"></i> Download this resume in PDF: [short](https://beatrizmilz.github.io/resume/resume.pdf) or
 [complete](https://beatrizmilz.github.io/resume/index.pdf) version.
 
-Summary {#summary}
---------------------------------------------------------------------------------
+## SUMMARY
+
 <i class="fas fa-graduation-cap"></i> Doctoral Student in Environmental Science at University of Sao Paulo (USP).
 
 <i class="fab fa-r-project"></i> R enthusiast. 
@@ -75,21 +75,23 @@ knitr::include_graphics("img/carpentries-icon-min.png")
 ```
 Carpentries Instructor.
 
-Contact Info {#contact}
---------------------------------------------------------------------------------
+## SKILLS
 
-- <i class="fa fa-envelope"></i> beatriz.milz@usp.br
+<i class="fab fa-r-project"></i> `R`
 
-- <i class="fa fa-twitter"></i> [Twitter: `@`BeaMilz](https://twitter.com/BeaMilz)
+<i class="far fa-chart-bar"></i> `tidyverse`
 
-- <i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
+<i class="fas fa-code-branch"></i> `Git`
 
-- <i class="fa fa-external-link-alt"></i> [Lattes CNPQ](http://lattes.cnpq.br/5150665880581477) 
+<i class="fab fa-github"></i> `GitHub`
 
-- <i class="fa fa-linkedin"></i> [LinkedIn](https://br.linkedin.com/in/beatrizmilz) 
-- <i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
+<i class="fab fa-markdown"></i> `Markdown`
 
-- For more information, please contact me via email.
+<i class="fab fa-html5"></i> `HTML`
+
+<i class="fab fa-css3-alt"></i> `CSS`
+
+
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
@@ -141,6 +143,7 @@ print_section(position_data, 'scientific_journals')
 
 ::: aside
 
+
 ### LANGUAGES
 
 **Portuguese:** Native
@@ -149,26 +152,28 @@ print_section(position_data, 'scientific_journals')
 
 **Spanish:** Beginner
 
+
 <br><br>
 
 
-### SKILLS
+### CONTACT INFO
 
-<i class="fab fa-r-project"></i> `R`
+- <i class="fa fa-envelope"></i> beatriz.milz@usp.br
 
-<i class="far fa-chart-bar"></i> `tidyverse`
+- <i class="fa fa-twitter"></i> [Twitter: `@`BeaMilz](https://twitter.com/BeaMilz)
 
-<i class="fas fa-code-branch"></i> `Git`
+- <i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
 
-<i class="fab fa-github"></i> `GitHub`
+- <i class="fa fa-external-link-alt"></i> [Lattes CNPQ](http://lattes.cnpq.br/5150665880581477) 
 
-<i class="fab fa-markdown"></i> `Markdown`
+- <i class="fa fa-linkedin"></i> [LinkedIn](https://br.linkedin.com/in/beatrizmilz) 
+- <i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
 
-<i class="fab fa-html5"></i> `HTML`
+- For more information, please contact me via email.
 
-<i class="fab fa-css3-alt"></i> `CSS`
 
 :::
+
 
 
 
@@ -205,3 +210,6 @@ Selected Oral Communications {data-icon=chalkboard-teacher}
 print_section(position_data, 'oral_communications')
 ```
 
+::: aside
+<i class="fas fa-download"></i> [Download the complete version of the CV](https://beatrizmilz.github.io/resume/index.pdf)
+:::
