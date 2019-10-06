@@ -15,6 +15,11 @@ output:
 # https://slides.yihui.name/2019-rstudio-conf-pagedown.html#1
 # xaringan::inf_mr("docs/index.Rmd")
 ---
+<!--- start of code for font awesome--->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+<!--- end of code for font awesome--->
+
 ```{r, include=FALSE}
 # code from https://github.com/nstrayer/cv
 knitr::opts_chunk$set(
@@ -136,14 +141,35 @@ print_section(position_data, 'scientific_journals')
 
 ::: aside
 
-### LANGUAGES 
+### LANGUAGES
 
 **Portuguese:** Native
 
 **English:** Proficient
 
 **Spanish:** Beginner
-::: 
+
+<br><br>
+
+
+### SKILLS
+
+<i class="fab fa-r-project"></i> `R`
+
+<i class="far fa-chart-bar"></i> `tidyverse`
+
+<i class="fas fa-code-branch"></i> `Git`
+
+<i class="fab fa-github"></i> `GitHub`
+
+<i class="fab fa-markdown"></i> `Markdown`
+
+<i class="fab fa-html5"></i> `HTML`
+
+<i class="fab fa-css3-alt"></i> `CSS`
+
+:::
+
 
 
 Working Experience {data-icon=briefcase}
@@ -165,8 +191,10 @@ print_section(position_data, 'teaching_experience')
 Selected Publications {data-icon=book-open} 
 --------------------------------------------------------------------------------
 
-```{r}
-print_section(position_data, 'publications')
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#print_section(position_data, "publications_journals")
+print_section(position_data, "publications_books")
+#print_section(position_data, "publications_scientific_events")
 ```
 
 
