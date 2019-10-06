@@ -12,6 +12,8 @@ PDF - 2 pages: https://beatrizmilz.github.io/resume/resume.pdf
 
 Thanks to [@Nick Strayer](http://nickstrayer.me/) - code to build the CV using a csv table: [code in this repository](https://github.com/nstrayer/cv).
 
+---
+
 To update the cv, first add a new row to the `positions.csv` table with the information needed, and then use the following code:
 
 source("docs/export_cv.R")

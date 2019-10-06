@@ -51,12 +51,12 @@ Summary {#summary}
 <i class="fab fa-r-project"></i> R enthusiast. 
 
 ```{r echo=FALSE, out.width="10%"}
-knitr::include_graphics("img/R-LadiesGlobal.png")
+knitr::include_graphics("img/R-LadiesGlobal-min.png")
 ```
 R-Ladies Sao Paulo Co-organizer. 
 
 ```{r echo=FALSE, out.width="10%"}
-knitr::include_graphics("img/carpentries-icon.png")
+knitr::include_graphics("img/carpentries-icon-min.png")
 ```
 Carpentries Instructor.
 
@@ -65,7 +65,9 @@ Contact Info {#contact}
 
 - <i class="fa fa-envelope"></i> beatriz.milz@usp.br
 
-- <i class="fa fa-github"></i> [GitHub](https://github.com/beatrizmilz)
+- <i class="fa fa-twitter"></i> [Twitter: `@`BeaMilz](https://twitter.com/BeaMilz)
+
+- <i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
 
 - <i class="fa fa-external-link-alt"></i> [Lattes CNPQ](http://lattes.cnpq.br/5150665880581477) 
 
@@ -105,7 +107,7 @@ print_section(position_data, 'research_projects')
 ```
 
 
-Projects {data-icon=share-alt .break-after-me}
+Projects {data-icon=share-alt}
 --------------------------------------------------------------------------------
 ```{r}
 print_section(position_data, 'community_projects')
@@ -121,7 +123,7 @@ print_section(position_data, 'scientific_journals')
 
 ::: aside
 
-### LANGUAGES 
+### LANGUAGES
 
 **Portuguese:** Native
 
