@@ -15,6 +15,30 @@ output:
 # https://slides.yihui.name/2019-rstudio-conf-pagedown.html#1
 # xaringan::inf_mr("docs/index.Rmd")
 ---
+```{r, include=FALSE}
+# code from https://github.com/nstrayer/cv
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+library(tidyverse)
+library(glue)
+
+# Set this to true to have links turned into footnotes at the end of the document
+PDF_EXPORT <- FALSE
+
+# Holds all the links that were inserted for placement at the end
+links <- c()
+
+source('parsing_functions.R')
+
+
+# Load csv with position info
+position_data <- read_csv('positions.csv')
+
+```
+
+
 Aside
 ================================================================================
 Summary {#summary}
@@ -79,352 +103,105 @@ Beatriz Milz {#title}
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-### University of São Paulo
+```{r}
+print_section(position_data, 'education')
+```
 
-**Doctoral Student in Environmental Science**       <br> Institute of Energy and Environment <br> Graduate Program in Environmental Science
-
-São Paulo, SP, Brazil
-
-2019 - Currently
-
-**Research project:** [Active transparency in the water resources management in Sao Paulo Macrometropolis using the INTRAG method](https://bv.fapesp.br/en/bolsas/185176/active-transparency-in-the-management-of-water-resources-in-the-sao-paulo-macrometropolis-using-the/)
-
-**Scholarship:** FAPESP  Grant number: 18/23771-6
-
-
-**Advisor:** [Pedro Roberto Jacobi]( http://lattes.cnpq.br/6799067928413168) 
-
-### Federal University of São Paulo
-
-**M.S. in Sciences** <br> Institute of Environmental, Chemical and Pharmaceutical Sciences <br> Graduate Program in Integrated Environmental Analysis
-
-N/A
-
-2016 - 2018
-
-**Dissertation:** Evaluation of the water quality and remote sensing mapping (LANDSAT-8/OLI) of the Central Body I of the Billings reservoir (São Paulo, SP)
-
-**Advisor:** [Cristina Souza Freire Nordi](http://lattes.cnpq.br/1133827212627122) 
-
-### University of São Paulo
-
-**Bachelor degree in Environmental Management**       <br> School of Arts, Sciences and Humanities 
-
-N/A
-
-2012 - 2015
-
-**Undergraduate thesis:** Use of the Billings reservoir for public supply in the Metropolitan Region of Sao Paulo in the context of water crisis: The interligation of the Billings reservoir and the Alto Tietê System.
-
-**Advisor:** [Pedro Roberto Jacobi]( http://lattes.cnpq.br/6799067928413168) 
 
 Research Projects {data-icon=laptop}
 --------------------------------------------------------------------------------
 
-### MacroAmb FAPESP
-
-FAPESP Thematic Project - [Environmental Governance of the Sao Paulo Macrometropolis in face of climate variability](https://bv.fapesp.br/en/auxilios/97000/environmental-governance-of-macrometropolis-paulista-in-face-of-climate-variability/) - Grant number: 15/03804-9
-
-N/A
-
-
-2018 - Currently  
+```{r}
+print_section(position_data, 'research_projects')
+```
 
 
 Projects {data-icon=share-alt .break-after-me}
 --------------------------------------------------------------------------------
-
-### [Instructor - The Carpentries](https://carpentries.org/instructors/)
-
-https://carpentries.org/
-
-N/A
-
-2019 - Currently
+```{r}
+print_section(position_data, 'community_projects')
+```
 
 
-### [R-Ladies Sao Paulo Co-organizer](https://www.meetup.com/pt-BR/rladies-sao-paulo/)
-
-https://rladies.org/
-
-N/A
-
-2018 - Currently
-
-
-
-Scientific Journals - Editorial Board {data-icon=book }
+Scientific Journals {data-icon=book }
 --------------------------------------------------------------------------------
 
-### Editorial Secretary - [Journal Ambiente & Sociedade](http://scielo.br/asoc)
-
-N/A
-
-N/A
-
-2018 - Currently
+```{r}
+print_section(position_data, 'scientific_journals')
+```
 
 
-
-Experience {data-icon=briefcase}
+Working Experience {data-icon=briefcase}
 --------------------------------------------------------------------------------
-### Federal University of São Paulo
 
-**Teaching Internship** - Water Ecosystems <br> Institute of Environmental, Chemical and Pharmaceutical Sciences <br> Undergraduate Program in Environmental Sciences
-
-Diadema, SP, Brazil
-
-2017 - 2017
+```{r}
+print_section(position_data, 'working_experience')
+```
 
 
-### City Hall of Sao Paulo
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
 
-**Intern in Environmental Managment** 
+```{r}
+print_section(position_data, 'teaching_experience')
+```
 
-São Paulo, SP, Brazil
-
-2014 - 2015
 
 Grants {data-icon=award}
 --------------------------------------------------------------------------------
 
-### [LatinR 2019](https://latin-r.com/) - Latinamerican Conference About the Use of R in R&D
+```{r}
+print_section(position_data, 'grants')
+```
 
-Diversity Scholarship - Travel and Conference
-
-Santiago, Chile
-
-2019
-
-
-### [useR! 2019](https://user2019.r-project.org/)
-
-Diversity Scholarship - Travel and Conference
-
-Toulouse, France
-
-2019
-
-### [São Paulo Research Foundation (FAPESP)](https://bv.fapesp.br/en/bolsas/185176/active-transparency-in-the-management-of-water-resources-in-the-sao-paulo-macrometropolis-using-the/)
-
-May/2019 - Jan/2022 - Scholarships in Brazil - Doctorate - Grant number: 18/23771-6
-
-São Paulo, SP, Brazil
-
-2019 - 2022
 
 Events organized {data-icon=calendar-check}
 --------------------------------------------------------------------------------
-### I Fórum de Governança Ambiental da Macrometrópole Paulista.
 
-Organizing Committee
-
-São Paulo, SP, Brazil
-
-2019
-
-
-### 2º Simpósio em Análise Ambiental Integrada
-
-Organizing Committee
-
-Diadema, SP, Brazil
-
-2017
-
-### 1º Simpósio em Análise Ambiental Integrada
-
-Organizing Committee
-
-Diadema, SP, Brazil
-
-2016
+```{r}
+print_section(position_data, 'events_organized')
+```
 
 
 Publications {data-icon=book-open} 
 --------------------------------------------------------------------------------
-### Anais do Seminário Internacional de Estatística com R
 
-MILZ, B.; GONÇALVES PINTO, B. G.; WUNDERVALD, B.; SVAB, H. [Ensino de R através da comunidade R-Ladies - Capítulo São Paulo.](http://periodicos.uff.br/anaisdoser/article/view/29327)
-
-N/A
-
-2019
-
-
-
-```{r eval=FALSE, include=FALSE}
-ADICIONAR:
-- Dialogos socioambientais
-- Capítulo livro paranapiacaba (nao lançado)
-- Capítulo livro adaptação (lançado!)
-- Anais serve? Anais do FORUM MACROAMB, e evento USP 2016
+```{r}
+print_section(position_data, 'publications')
 ```
-
-
 
 
 Oral Communications {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
-### [useR! 2019](https://user2019.r-project.org/) - [Youtube Video](https://youtu.be/2HK6hjwhdRk?t=880)
 
-MILZ, B.; WUNDERVALD, B. [The evolution and importance of the R-Ladies São Paulo chapter in Brazil.](https://beatrizmilz.github.io/useR2019/)
-
-Toulouse, France
-
-2019
-
-
-### I Fórum de Governança Ambiental da Macrometrópole Paulista.
-
-MILZ, B.; JACOBI, P. R. Levantamento exploratório de estudos sobre a Governança Ambiental na Macrometrópole Paulista. 
-
-São Paulo, SP, Brazil
-
-2019
-
-
-###  II Simpósio Interdisciplinar de Ciência Ambiental
-
-MILZ, B.; MACEDO, B. N. M. ; JACOBI, P. R. Transparência na gestão de recursos hídricos e a interligação dos Sistemas Rio Grande e Alto Tietê.
-
-São Paulo, SP, Brazil
-
-2016 
+```{r}
+print_section(position_data, 'oral_communications')
+```
 
 
 Poster Presentations {data-icon=calendar-check}
 --------------------------------------------------------------------------------
 
-### IV SER UFF - International Seminar on Statistics with R
-
-MILZ, B.; GONÇALVES PINTO, B. G.; WUNDERVALD, B.; SVAB, H. [Ensino de R através da comunidade R-Ladies - Capítulo São Paulo.](https://beatrizmilz.github.io/resume/certificates/2019/Certificado-SER-Poster.pdf)
-
-Rio de Janeiro, RJ, Brazil
-
-2019
+```{r}
+print_section(position_data, 'poster_presentations')
+```
 
 
-### XVI Congresso Brasileiro de Limnologia 
-
-MILZ, B.; RIBEIRO, M. S. F. ; BITENCOURT, A. L. V. ; FREIRE-NORDI, C. S. Avaliação da qualidade da água do Corpo Central da represa Billings (São Paulo, SP) e mapeamento por sensoriamento remoto (Landsat-8/OLI).
-
-Rio de Janeiro, RJ, Brazil
-
-2017
-
-
-
-
-### 2º Simpósio em Análise Ambiental Integrada
-
-MILZ, B.; BITENCOURT, A. L. V. ; FREIRE-NORDI, C. S. Avaliação da qualidade da água e mapeamento por sensoriamento remoto (LANDSAT-8/OLI) do compartimento ambiental corpo central I da represa Billings (São Paulo, SP).
-
-Diadema, SP, Brazil
-
-2017
-
-
-
-### 1º Simpósio em Análise Ambiental Integrada
-
-MILZ, B.; FREIRE-NORDI, C. S. ; BITENCOURT, A. L. V. Avaliação da qualidade das águas superficiais do compartimento Corpo Central 1 da represa Billings, através do estudo de variáveis físicas e químicas e do monitoramento por sensoriamento remoto orbital (Landsat 8/OLI)
-
-Diadema, SP, Brazil
-
-2016
 
 Workshops taught {data-icon=chalkboard-teacher} 
 --------------------------------------------------------------------------------
 
-### `R` - [Workshop in Portuguese - Apresentações no R ⚔ com xaringan](https://beatrizmilz.github.io/aMostra-IME-2019-Xaringan/)
-
-[14ª aMostra Estatística](https://www.ime.usp.br/~amostra/) - Institute of Mathematics and Statistics, University of São Paulo (IME/USP)
-
-São Paulo, SP, Brazil
-
-2019
-
-
-### `R` - [Workshop in Portuguese - Communicating your results: creating presentations with R](https://beatrizmilz.github.io/IV-SER-RLadies/)
-
-[IV SER UFF - International Seminar on Statistics with R](http://ser.uff.br/) - [Certificate](https://beatrizmilz.github.io/resume/certificates/2019/Cert_Minicurso_Beatriz Milz2.pdf)
-
-Niterói, RJ, Brazil
-
-2019
-
-
-### `R` - Workshop in English -  Introduction to R (R-Ladies São Paulo)
-
-2018 CODATA-RDA School of Research Data Science - ICTP-SAIFR/NCC-UNESP
-
-São Paulo, SP, Brazil
-
-2018
-
-
-### `R` - Workshop in Portuguese -  Introduction to R
-
-Federal University of ABC (UFABC)
-
-São Bernardo do Campo, SP, Brazil
-
-2018
+```{r}
+print_section(position_data, 'workshops_taught')
+```
 
 
 Meetup Presentations {data-icon=meetup} 
 --------------------------------------------------------------------------------
 
-### `R` - [Primeiros passos utilizando o Git e GitHub no RStudio](https://beatrizmilz.github.io/RLadies-Git-RStudio-2019/) 
-
-[Meetup R-Ladies São Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/) - In Portuguese
-
-São Paulo
-
-2019
-
-### `R` - ["Introdução ao pacote xaringan - Criando apresentações com R](https://beatrizmilz.github.io/IME-27-08-2019/)
-
-Institute of Mathematics and Statistics, University of São Paulo (IME/USP) - In Portuguese
-
-São Paulo, SP, Brazil
-
-2019
-
-
-### `R` - [Dashboards, gráficos, mapas: Possibilidades de visualização de dados com R](https://beatrizmilz.github.io/NerdzaoWeek/)
-
-[Meetup Nerdzão - Nerdzão Week](https://nerdzao.netlify.com/) - In Portuguese
-
-São Paulo
-
-2019
-
-### `R` - [R Workshop - Intermediate](https://beatrizmilz.github.io/2019-02-R-Interm-R-LadiesSP/#) 
-
-[Meetup R-Ladies São Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/) - In Portuguese
-
-São Paulo
-
-2019
-
-### `R` - [R Workshop - Basic](https://maryms.github.io/2019-02-R-Basics-R-LadiesSP/) 
-
-[Meetup R-Ladies São Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/) - In Portuguese
-
-São Paulo
-
-2019
-
-### `R` - [Communicating your results: creating presentations with R](https://beatrizmilz.github.io/apresentacao_RLadies_xaringan/)
-
-[Meetup R-Ladies São Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/) - In Portuguese
-
-São Paulo
-
-2018
-
+```{r}
+print_section(position_data, 'meetup_presentations')
+```
 
 
 Events attended {data-icon=calendar-check} 
