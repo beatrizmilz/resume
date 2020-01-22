@@ -181,22 +181,18 @@ print_section(position_data, 'scientific_journals')
 # print_section(position_data, 'working_experience')
 ```
 
+Selected Events organized {data-icon=calendar-check}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'events_organized')
+```
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ```{r}
 print_section(position_data, 'teaching_experience')
-```
-
-
-Selected Publications {data-icon=book-open} 
---------------------------------------------------------------------------------
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-#print_section(position_data, "publications_journals")
-print_section(position_data, "publications_books")
-#print_section(position_data, "publications_scientific_events")
 ```
 
 
@@ -207,6 +203,15 @@ Selected Oral Communications {data-icon=chalkboard-teacher}
 print_section(position_data, 'oral_communications')
 ```
 
-::: aside
+
+Selected Short Courses Attended {data-icon=book} 
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'short_courses')
+```
+
+
+:::aside
 <i class="fas fa-download"></i> [Download the complete version of the CV](https://beatrizmilz.github.io/resume/index.pdf)
 :::
