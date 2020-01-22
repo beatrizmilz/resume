@@ -64,6 +64,7 @@ body{
 h1 {
 font-family: 'Lexend Deca', sans-serif;
 color: #88398a;  
+line-height: 0;
 }
 
 h2 {
@@ -126,13 +127,13 @@ h2{
   position: relative;
   left: 0.55in;
   margin: auto 0.55in 0.3in auto;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 
 #title h1{
   font-weight: 300;
   font-size: 1.5rem;
-  line-height: 1.5;
+  line-height: 0;
 }
 
 #title h3{
