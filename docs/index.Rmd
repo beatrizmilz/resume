@@ -9,14 +9,18 @@ output:
   pagedown::html_resume:
     css: [ 'dd_cv.css', 'custom.css','resume']
     self_contained: true
+knit: pagedown::chrome_print      
 ---
+
 <!-- inicio academic icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
 <!-- final academic icons -->
 
+ 
 <!-- inicio font awesome -->
 <script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"></script>
+
+ 
 <!-- final font awesome -->
 
 ```{r, include=FALSE}
@@ -70,19 +74,19 @@ if(params$pdf_mode){
 
 Summary {#summary}
 --------------------------------------------------------------------------------
-<i class="fas fa-graduation-cap"></i> Doctoral Student in Environmental Science at University of Sao Paulo (USP).
+- Doctoral Student in Environmental Science at University of Sao Paulo (USP).
 
-<i class="fab fa-r-project"></i> R enthusiast. 
-
-```{r echo=FALSE, out.width="10%"}
-knitr::include_graphics("img/rainbow-inclusive-min.png")
-```
-R-Ladies São Paulo Co-organizer. 
+- R enthusiast. 
 
 ```{r echo=FALSE, out.width="10%"}
-knitr::include_graphics("img/carpentries-icon-min.png")
+#knitr::include_graphics("img/rainbow-inclusive-min.png")
 ```
-Carpentries Instructor.
+- R-Ladies São Paulo Co-organizer. 
+
+```{r echo=FALSE, out.width="10%"}
+#knitr::include_graphics("img/carpentries-icon-min.png")
+```
+- Carpentries Instructor.
 
 
 Programming Skills {#skills}
@@ -91,9 +95,9 @@ Programming Skills {#skills}
 <i class="fab fa-r-project"></i> `R`
 
 ```{r echo=FALSE, out.width="5%"}
-knitr::include_graphics("img/tidyverse_min.png")
+#knitr::include_graphics("img/tidyverse_min.png")
 ```
-`tidyverse`
+<i class="far fa-chart-bar"></i> `tidyverse`
 
 <i class="fas fa-code-branch"></i> `Git`
 
