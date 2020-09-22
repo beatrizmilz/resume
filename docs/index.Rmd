@@ -1,75 +1,99 @@
 ---
-title: "Beatriz Milz's resume"
+title: "Beatriz Milz's CV"
 author: Beatriz Milz
 date: "`r Sys.Date()`"
+params:
+  pdf_mode:
+    value: false
 output:
   pagedown::html_resume:
-    # set it to true for a self-contained HTML page but it'll take longer to render
+    css: [ 'dd_cv.css', 'custom.css','resume']
     self_contained: true
-    css: ["css/resume.css"]
-    
-# to render into pdf: pagedown::chrome_print("docs/index.html")
-# If needed:
-# https://pagedown.rbind.io/
-# https://www.pagedmedia.org/about-paged-media/pagedjs-cheatsheet/
-# https://slides.yihui.name/2019-rstudio-conf-pagedown.html#1
-# xaringan::inf_mr("docs/index.Rmd")
 ---
-<!--- start of code for font awesome--->
+<!-- inicio academic icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-<!--- end of code for font awesome--->
+<!-- final academic icons -->
+
+<!-- inicio font awesome -->
+<script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"></script>
+<!-- final font awesome -->
 
 ```{r, include=FALSE}
-# code from https://github.com/nstrayer/cv
 knitr::opts_chunk$set(
-  results='asis', 
+  results='asis',
   echo = FALSE
 )
-library(tidyverse)
-library(glue)
 
-# Set this to true to have links turned into footnotes at the end of the document
-PDF_EXPORT <- FALSE
+library(magrittr) # For the pipe
+source("cv_printing_functions.r")
 
-# Holds all the links that were inserted for placement at the end
-links <- c()
+# Read in all data and initialize a CV printer object
+CV <- create_CV_object(
+  data_location = "https://docs.google.com/spreadsheets/d/1iBxpNzwZWOrOwR__Y4FNDQ_3tpw-0trS0PVigsS4z6w/edit?usp=sharing",  
+  pdf_mode = params$pdf_mode
+)
 
-source('parsing_functions.R')
+
+CV$entries_data <- CV$entries_data %>% dplyr::filter(in_resume == TRUE)
 
 
-# Load csv with position info
-position_data <- read_csv('positions.csv')
 
+```
+
+
+```{r}
+# When in pdf export mode the little dots are unaligned, so fix that with some conditional CSS.
+if(params$pdf_mode) {
+    cat("
+<style>
+:root{
+  --decorator-outer-offset-left: -6.5px;
+}
+</style>")
+}
 ```
 
 
 Aside
 ================================================================================
-<i class="fas fa-download"></i> Download this resume in PDF: [short](https://beatrizmilz.github.io/resume/resume.pdf) or
-[complete](https://beatrizmilz.github.io/resume/index.pdf) version.
 
-## SUMMARY
 
+```{r}
+if(params$pdf_mode){
+  cat("View this CV online with links at https://beatrizmilz.github.io/resume/")
+} else {
+  cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://beatrizmilz.github.io/resume/index.pdf).")
+}
+```
+
+
+Summary {#summary}
+--------------------------------------------------------------------------------
 <i class="fas fa-graduation-cap"></i> Doctoral Student in Environmental Science at University of Sao Paulo (USP).
 
 <i class="fab fa-r-project"></i> R enthusiast. 
 
 ```{r echo=FALSE, out.width="10%"}
-knitr::include_graphics("img/R-LadiesGlobal-min.png")
+knitr::include_graphics("img/rainbow-inclusive-min.png")
 ```
-R-Ladies Sao Paulo Co-organizer. 
+R-Ladies São Paulo Co-organizer. 
 
 ```{r echo=FALSE, out.width="10%"}
 knitr::include_graphics("img/carpentries-icon-min.png")
 ```
 Carpentries Instructor.
 
-## SKILLS
+
+Programming Skills {#skills}
+--------------------------------------------------------------------------------
 
 <i class="fab fa-r-project"></i> `R`
 
-<i class="far fa-chart-bar"></i> `tidyverse`
+```{r echo=FALSE, out.width="5%"}
+knitr::include_graphics("img/tidyverse_min.png")
+```
+`tidyverse`
 
 <i class="fas fa-code-branch"></i> `Git`
 
@@ -82,6 +106,7 @@ Carpentries Instructor.
 <i class="fab fa-css3-alt"></i> `CSS`
 
 
+
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
@@ -91,17 +116,24 @@ Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beat
 
 Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf). 
 
+
 Main
 ================================================================================
 
 Beatriz Milz {#title}
 --------------------------------------------------------------------------------
 
+```{r}
+# Note the special double pipe so we modify the CV object in place
+# CV %<>% print_text_block("intro") 
+```
+
+
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'education')
+CV %<>% print_section('education')
 ```
 
 
@@ -109,22 +141,27 @@ Research Projects {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'research_projects')
+CV %<>% print_section('research_projects')
 ```
-
 
 Projects {data-icon=share-alt}
 --------------------------------------------------------------------------------
+
+::: aside
 ```{r}
-print_section(position_data, 'community_projects')
+# CV %<>% print_text_block('community_projects_aside')
+```
+:::
+
+```{r}
+CV %<>% print_section('community_projects')
 ```
 
-
-Scientific Journals {data-icon=book }
+Software {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'scientific_journals')
+CV %<>% print_section('software')
 ```
 
 ::: aside
@@ -149,9 +186,10 @@ print_section(position_data, 'scientific_journals')
 
 - <i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
 
-- <i class="fa fa-external-link-alt"></i> [Lattes CNPQ](http://lattes.cnpq.br/5150665880581477) 
+- <a href='http://lattes.cnpq.br/5150665880581477'><i class="fa fa-external-link-alt"></i> Lattes </a> 
 
-- <i class="fa fa-linkedin"></i> [LinkedIn](https://br.linkedin.com/in/beatrizmilz) 
+- <a href='https://orcid.org/0000-0002-3064-4486'><i class="fab fa-orcid"></i> Orcid </a>  
+
 - <i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
 
 - For more information, please contact me via email.
@@ -159,101 +197,45 @@ print_section(position_data, 'scientific_journals')
 
 :::
 
-Working Experience {data-icon=briefcase}
+Scientific Journals {data-icon=book }
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'working_experience')
+CV %<>% print_section('scientific_journals')
 ```
 
+
+Selected Events organized {data-icon=calendar-check}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('events_organized')
+```
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'teaching_experience')
+CV %<>% print_section('teaching_experience')
 ```
 
 
-Grants {data-icon=award}
+Selected Oral Communications {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'grants')
+CV %<>% print_section('oral_communications')
 ```
 
 
-Publications in Journals {data-icon=book-open} 
+Selected Short Courses Attended {data-icon=book} 
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'publications_journals')
-```
-
-Publications in Books {data-icon=book-open} 
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'publications_books')
-```
-
-Publications in Scientific Events{data-icon=book-open} 
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'publications_scientific_events')
+CV %<>% print_section('short_courses')
 ```
 
 
-Oral Communications {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'oral_communications')
-```
-
-
-Poster Presentations {data-icon=calendar-check}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'poster_presentations')
-```
-
-Events organized {data-icon=calendar-check}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'events_organized')
-```
-
-
-Workshops taught {data-icon=chalkboard-teacher} 
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'workshops_taught')
-```
-
-
-Meetup Presentations {data-icon=meetup} 
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'meetup_presentations')
-```
-
-
-Events attended {data-icon=calendar-check} 
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'events_attended')
-```
-
-Short courses Attended {data-icon=book} 
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'short_courses')
-```
+:::aside
+<i class="fas fa-download"></i> [Download](https://beatrizmilz.github.io/resume/index.pdf)
+:::
