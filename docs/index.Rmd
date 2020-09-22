@@ -72,21 +72,23 @@ if(params$pdf_mode){
 ```
 
 
-Summary {#summary}
+
+Contact {#contact}
 --------------------------------------------------------------------------------
-- Doctoral Student in Environmental Science at University of Sao Paulo (USP).
 
-- R enthusiast. 
+- <i class="fa fa-envelope"></i> beatriz.milz@usp.br
 
-```{r echo=FALSE, out.width="10%"}
-#knitr::include_graphics("img/rainbow-inclusive-min.png")
-```
-- R-Ladies São Paulo Co-organizer. 
+- <i class="fa fa-twitter"></i> [Twitter: `@`BeaMilz](https://twitter.com/BeaMilz)
 
-```{r echo=FALSE, out.width="10%"}
-#knitr::include_graphics("img/carpentries-icon-min.png")
-```
-- Carpentries Instructor.
+- <i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
+
+- <a href='http://lattes.cnpq.br/5150665880581477'><i class="fa fa-external-link-alt"></i> Lattes </a> 
+
+- <a href='https://orcid.org/0000-0002-3064-4486'><i class="fab fa-orcid"></i> Orcid </a>  
+
+- <i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
+
+- For more information, please contact me via email.
 
 
 Programming Skills {#skills}
@@ -127,10 +129,12 @@ Main
 Beatriz Milz {#title}
 --------------------------------------------------------------------------------
 
-```{r}
-# Note the special double pipe so we modify the CV object in place
-# CV %<>% print_text_block("intro") 
-```
+Hello!  I'm a Doctorate Student in Environmental Science, and I'm an enthusiast of the programming language R, of open source and reproducible research.
+
+I'm also active in the local R community: I'm a co-organizer of R-Ladies São Paulo, and I have taught in several meetups and workshops, 
+in the chapter São Paulo and also at R-Ladies Niterói, Curitiba and Goiânia.
+I'm also a co-organizer of SatRdays São Paulo, and a certified Carpentries Instructor. 
+
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -182,21 +186,6 @@ CV %<>% print_section('software')
 <br><br>
 
 
-### CONTACT INFO
-
-- <i class="fa fa-envelope"></i> beatriz.milz@usp.br
-
-- <i class="fa fa-twitter"></i> [Twitter: `@`BeaMilz](https://twitter.com/BeaMilz)
-
-- <i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
-
-- <a href='http://lattes.cnpq.br/5150665880581477'><i class="fa fa-external-link-alt"></i> Lattes </a> 
-
-- <a href='https://orcid.org/0000-0002-3064-4486'><i class="fab fa-orcid"></i> Orcid </a>  
-
-- <i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
-
-- For more information, please contact me via email.
 
 
 :::
