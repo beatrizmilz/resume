@@ -42,3 +42,17 @@ a {
 .decorator::after {
 	background-color: #8f4591;
 }
+
+
+
+
+b::title{
+  	color: #88398a;
+	font-weight: 600;
+}
+
+
+p::title {
+
+	text-align: justify;
+}

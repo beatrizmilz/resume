@@ -9,7 +9,7 @@ output:
   pagedown::html_resume:
     css: [ 'dd_cv.css', 'custom.css','resume']
     self_contained: true
-knit: pagedown::chrome_print      
+#knit: pagedown::chrome_print      
 ---
 
 <!-- inicio academic icons -->
@@ -37,6 +37,7 @@ CV <- create_CV_object(
   data_location = "https://docs.google.com/spreadsheets/d/1iBxpNzwZWOrOwR__Y4FNDQ_3tpw-0trS0PVigsS4z6w/edit?usp=sharing",  
   pdf_mode = params$pdf_mode
 )
+
 
 
 CV$entries_data <- CV$entries_data %>% dplyr::filter(in_resume == TRUE)
@@ -88,7 +89,7 @@ Contact {#contact}
 
 - <i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
 
-- For more information, please contact me via email.
+- <i class="fab fa-discourse"></i> [Discourse](https://discourse.curso-r.com/u/beatrizmilz/summary)
 
 
 Programming Skills {#skills}
@@ -116,7 +117,7 @@ Programming Skills {#skills}
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
 
 Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beatrizmilz/resume). 
 
@@ -129,13 +130,7 @@ Main
 Beatriz Milz {#title}
 --------------------------------------------------------------------------------
 
-Hello!  I'm a Doctorate Student in Environmental Science, and I'm an enthusiast of the programming language R, of open source and reproducible research.
-
-I'm also active in the local R community: I'm a co-organizer of R-Ladies São Paulo, and I have taught in several meetups and workshops, 
-in the chapter São Paulo and also at R-Ladies Niterói, Curitiba and Goiânia.
-I'm also a co-organizer of SatRdays São Paulo, and a certified Carpentries Instructor. 
-
-
+__English__: Hello! My name is Beatriz, and I'm a Doctorate Student in Environmental Sciences. <!-- , and I'm an enthusiast of the  R programming language, of open source and reproducible research. --> __Português__: Olá! Meu nome é Beatriz, e sou doutoranda em Ciência Ambiental. <!-- Sou entusiasta da linguagem de progração R, de software livre e de pesquisa reprodutível. --> __Español__: ¡Hola! Mi nombre es Beatriz, soy estudiante de doctorado en Ciencias Ambientales. <!-- Soy entusiasta del lenguaje R, de software libre y de investigación reproducible. -->
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -152,27 +147,32 @@ Research Projects {data-icon=laptop}
 CV %<>% print_section('research_projects')
 ```
 
-Projects {data-icon=share-alt}
+Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-::: aside
 ```{r}
-# CV %<>% print_text_block('community_projects_aside')
+CV %<>% print_section('teaching_experience')
 ```
-:::
+
+
+Scientific Journals {data-icon=book }
+--------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('community_projects')
+CV %<>% print_section('scientific_journals')
 ```
+
+
 
 Software {data-icon=laptop}
 --------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('software')
-```
-
 ::: aside
+
+I'm an active participant in the local R community: I'm a co-organizer of R-Ladies São Paulo, and I have taught in several meetups and workshops, 
+in the chapters São Paulo, Niterói, Curitiba and Goiânia.
+
+
+I'm a co-organizer of SatRdays São Paulo, and a certified Carpentries Instructor. 
 
 ### LANGUAGES
 
@@ -182,19 +182,17 @@ CV %<>% print_section('software')
 
 **Spanish:** Beginner
 
-
-<br><br>
-
-
-
-
 :::
+```{r}
+CV %<>% print_section('software')
+```
 
-Scientific Journals {data-icon=book }
+Projects {data-icon=share-alt}
 --------------------------------------------------------------------------------
 
+
 ```{r}
-CV %<>% print_section('scientific_journals')
+CV %<>% print_section('community_projects')
 ```
 
 
@@ -205,12 +203,7 @@ Selected Events organized {data-icon=calendar-check}
 CV %<>% print_section('events_organized')
 ```
 
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
 
-```{r}
-CV %<>% print_section('teaching_experience')
-```
 
 
 Selected Oral Communications {data-icon=chalkboard-teacher}
