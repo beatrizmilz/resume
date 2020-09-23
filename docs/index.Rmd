@@ -11,7 +11,26 @@ output:
     self_contained: true
 #knit: pagedown::chrome_print      
 ---
-
+```{r metathis, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "beatrizmilz/resume") %>% 
+  meta_social(
+    title = "Beatriz Milz CV",
+    description = paste(
+      "CV made with the packages RMarkdown, pagedown, datadrivencv."
+    ),
+    url = "https://beatrizmilz.github.io/resume/index.html",
+    image = "https://beatrizmilz.github.io/resume/img/share-card.png",
+    image_alt = paste(
+      "Beatriz Milz CV"
+    ),
+    og_type = "website",
+    og_author = "Beatriz Milz",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@beamilz"
+  )
+```
 <!-- inicio academic icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 <!-- final academic icons -->
