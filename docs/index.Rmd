@@ -92,23 +92,11 @@ if(params$pdf_mode){
 ```
 
 
-
-Contact {#contact}
+Software {#software}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> beatriz.milz@usp.br
+<i class="fas fa-box-open"></i> [Package {dados}](https://cienciadedatos.github.io/dados/) - Co-Author. 
 
-- <i class="fa fa-twitter"></i> [Twitter: `@`BeaMilz](https://twitter.com/BeaMilz)
-
-- <i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
-
-- <a href='http://lattes.cnpq.br/5150665880581477'><i class="fa fa-external-link-alt"></i> Lattes </a> 
-
-- <a href='https://orcid.org/0000-0002-3064-4486'><i class="fab fa-orcid"></i> Orcid </a>  
-
-- <i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
-
-- <i class="fab fa-discourse"></i> [Discourse](https://discourse.curso-r.com/u/beatrizmilz/summary)
 
 
 Programming Skills {#skills}
@@ -119,7 +107,8 @@ Programming Skills {#skills}
 ```{r echo=FALSE, out.width="5%"}
 #knitr::include_graphics("img/tidyverse_min.png")
 ```
-<i class="far fa-chart-bar"></i> `tidyverse`
+<i class="fa fa-area-chart" aria-hidden="true"></i>
+ `tidyverse`
 
 <i class="fas fa-code-branch"></i> `Git`
 
@@ -130,6 +119,8 @@ Programming Skills {#skills}
 <i class="fab fa-html5"></i> `HTML`
 
 <i class="fab fa-css3-alt"></i> `CSS`
+
+
 
 
 
@@ -181,10 +172,9 @@ Scientific Journals {data-icon=book }
 CV %<>% print_section('scientific_journals')
 ```
 
-
-
-Software {data-icon=laptop}
+Projects {data-icon=share-alt}
 --------------------------------------------------------------------------------
+
 ::: aside
 
 I'm an active participant in the local R community: I'm a co-organizer of R-Ladies São Paulo, and I have taught in several meetups and workshops, 
@@ -193,7 +183,7 @@ in the chapters São Paulo, Niterói, Curitiba and Goiânia.
 
 I'm a co-organizer of SatRdays São Paulo, and a certified Carpentries Instructor. 
 
-### LANGUAGES
+### Languages
 
 **Portuguese:** Native
 
@@ -201,13 +191,35 @@ I'm a co-organizer of SatRdays São Paulo, and a certified Carpentries Instructo
 
 **Spanish:** Beginner
 
-:::
-```{r}
-CV %<>% print_section('software')
-```
+### GRANTS
 
-Projects {data-icon=share-alt}
---------------------------------------------------------------------------------
+- <i class="far fa-star"></i> [LatinR 2019](https://latin-r.com/) - Travel and Conference.
+
+- <i class="far fa-star"></i> [useR! 2019](https://user2019.r-project.org/). Diversity Scholarship - Travel and Conference.
+
+- <i class="far fa-star"></i> [FAPESP Doctorate Scholarship](https://bv.fapesp.br/en/bolsas/185176/active-transparency-in-the-management-of-water-resources-in-the-sao-paulo-macrometropolis-using-the/)
+
+
+### CONTACT
+
+- <i class="fa fa-envelope"></i> beatriz.milz@usp.br
+
+- <i class="fa fa-twitter"></i> [Twitter: `@`BeaMilz](https://twitter.com/BeaMilz)
+
+- <i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
+
+- <i class="fa fa-external-link-alt"></i> <a href='http://lattes.cnpq.br/5150665880581477'> Lattes </a> 
+
+- <i class="fab fa-orcid"></i> <a href='https://orcid.org/0000-0002-3064-4486'> Orcid </a>  
+
+- <i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
+
+- <i class="fab fa-discourse"></i> [Discourse](https://discourse.curso-r.com/u/beatrizmilz/summary)
+
+:::
+
+
+
 
 
 ```{r}
@@ -223,8 +235,6 @@ CV %<>% print_section('events_organized')
 ```
 
 
-
-
 Selected Oral Communications {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
@@ -232,6 +242,12 @@ Selected Oral Communications {data-icon=chalkboard-teacher}
 CV %<>% print_section('oral_communications')
 ```
 
+Selected Publications from Events {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('publications_scientific_events')
+```
 
 Selected Short Courses Attended {data-icon=book} 
 --------------------------------------------------------------------------------
