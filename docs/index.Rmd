@@ -97,6 +97,15 @@ Software {#software}
 
 <i class="fas fa-box-open"></i> [Package {dados}](https://cienciadedatos.github.io/dados/) - Co-Author. 
 
+<i class="fas fa-box-open"></i> [Package {mananciais}](https://beatrizmilz.github.io/mananciais/) - Author, maintainer. 
+
+
+Teaching {#teachingr}
+--------------------------------------------------------------------------------
+
+<i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
+
+<i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/).
 
 
 Programming Skills {#skills}
@@ -181,7 +190,7 @@ I'm an active participant in the local R community: I'm a co-organizer of R-Ladi
 in the chapters São Paulo, Niterói, Curitiba and Goiânia.
 
 
-I'm a co-organizer of SatRdays São Paulo, and a certified Carpentries Instructor. 
+I'm a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.org/), [LatinR](https://latin-r.com/)  and [useR! 2021](https://user2021.r-project.org/). 
 
 ### Languages
 
