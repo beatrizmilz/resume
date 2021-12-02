@@ -228,22 +228,8 @@ I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.or
 
 :::
 
-Projects {data-icon=share-alt}
---------------------------------------------------------------------------------
 
 
-```{r}
-CV %<>% print_section('community_projects')
-```
-
-
-
-Selected Events organized {data-icon=calendar-check}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('events_organized')
-```
 
 
 Selected Oral Communications {data-icon=chalkboard-teacher}
@@ -269,5 +255,12 @@ Selected Workshops Taught {data-icon=book}
 
 ```{r}
 CV %<>% print_section('workshops_taught')
+```
+
+Selected Short Courses  {data-icon=book} 
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('short_courses')
 ```
 
