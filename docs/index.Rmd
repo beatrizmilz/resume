@@ -83,58 +83,48 @@ Aside
 ================================================================================
 
 
-```{r}
-if(params$pdf_mode){
-  cat("View this CV online with links at https://beatrizmilz.github.io/resume/")
-} else {
-  cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://beatrizmilz.github.io/resume/index.pdf).")
-}
-```
+<center>
+![Beatriz Milz](https://beatrizmilz.com/about/sidebar/avatar.jpeg){width=80% style='border-radius: 50%;'}
+</center>
 
 
-Software {#software}
+
+### CONTACT
+
+<i class="fa fa-chalkboard-teacher"></i> Talks: [beatrizmilz.com/talk/](https://beatrizmilz.com/talk/)
+
+<i class="fa fa-envelope"></i> milz.bea@gmail.com
+
+<i class="fa fa-twitter"></i> [Twitter: `@`BeaMilz](https://twitter.com/BeaMilz)
+
+<i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
+
+<i class="fa fa-external-link-alt"></i> <a href='http://lattes.cnpq.br/5150665880581477'> Lattes </a>
+
+<i class="fab fa-orcid"></i> <a href='https://orcid.org/0000-0002-3064-4486'> Orcid </a>
+
+<i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
+
+<i class="fab fa-discourse"></i> [Discourse](https://discourse.curso-r.com/u/beatrizmilz/summary)
+
+
+Languages {#languages}
 --------------------------------------------------------------------------------
 
-<i class="fas fa-box-open"></i> [Package {dados}](https://cienciadedatos.github.io/dados/) - Co-Author. 
+**Portuguese:** Native
 
-<i class="fas fa-box-open"></i> [Package {mananciais}](https://beatrizmilz.github.io/mananciais/) - Author, maintainer. 
+**English:** Proficient
 
+**Spanish:** Intermediate
 
-Teaching {#teachingr}
---------------------------------------------------------------------------------
-
-<i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
-
-<i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/).
-
-
-Programming Skills {#skills}
---------------------------------------------------------------------------------
-
-<i class="fab fa-r-project"></i> `R`
-
-```{r echo=FALSE, out.width="5%"}
-#knitr::include_graphics("img/tidyverse_min.png")
-```
-<i class="fa fa-area-chart" aria-hidden="true"></i>
- `tidyverse`
-
-<i class="fas fa-code-branch"></i> `Git`
-
-<i class="fab fa-github"></i> `GitHub`
-
-<i class="fab fa-markdown"></i> `Markdown`
-
-<i class="fab fa-html5"></i> `HTML`
-
-<i class="fab fa-css3-alt"></i> `CSS`
-
-
+<br>
 
 
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
+<i class="fas fa-download"></i> [Download](https://beatrizmilz.github.io/resume/index.pdf)
+
 
 This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
 
@@ -149,7 +139,6 @@ Main
 Beatriz Milz {#title}
 --------------------------------------------------------------------------------
 
-__English__: Hello! My name is Beatriz, and I'm a Doctorate Student in Environmental Sciences. <!-- , and I'm an enthusiast of the  R programming language, of open source and reproducible research. --> __Português__: Olá! Meu nome é Beatriz, e sou doutoranda em Ciência Ambiental. <!-- Sou entusiasta da linguagem de progração R, de software livre e de pesquisa reprodutível. --> __Español__: ¡Hola! Mi nombre es Beatriz, soy estudiante de doctorado en Ciencias Ambientales. <!-- Soy entusiasta del lenguaje R, de software libre y de investigación reproducible. -->
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -181,59 +170,72 @@ Scientific Journals {data-icon=book }
 CV %<>% print_section('scientific_journals')
 ```
 
-Projects {data-icon=share-alt}
---------------------------------------------------------------------------------
+
+
 
 ::: aside
 
-I'm an active participant in the local R community: I'm a co-organizer of R-Ladies São Paulo, and I have taught in several meetups and workshops, 
-in the chapters São Paulo, Niterói, Curitiba and Goiânia.
+   
+I'm an active participant in the local R community: I'm a co-organizer of R-Ladies São Paulo since 2018, and I have taught in several meetups and workshops. All the slides are available here: [beatrizmilz.com/talk/](https://beatrizmilz.com/talk/)
 
 
-I'm a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.org/), [LatinR](https://latin-r.com/)  and [useR! 2021](https://user2021.r-project.org/). 
+I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.org/) and [LatinR](https://latin-r.com/).
 
-### Languages
 
-**Portuguese:** Native
-
-**English:** Proficient
-
-**Spanish:** Beginner
 
 ### GRANTS
 
-- <i class="far fa-star"></i> [LatinR 2019](https://latin-r.com/) - Travel and Conference.
+<i class="far fa-star"></i> [LatinR 2019](https://latin-r.com/) - Travel and Conference.
 
-- <i class="far fa-star"></i> [useR! 2019](https://user2019.r-project.org/). Diversity Scholarship - Travel and Conference.
-
-- <i class="far fa-star"></i> [FAPESP Doctorate Scholarship](https://bv.fapesp.br/en/bolsas/185176/active-transparency-in-the-management-of-water-resources-in-the-sao-paulo-macrometropolis-using-the/)
+<i class="far fa-star"></i> [useR! 2019](https://user2019.r-project.org/). Diversity Scholarship - Travel and Conference.
 
 
-### CONTACT
+<br>
 
-- <i class="fa fa-envelope"></i> beatriz.milz@usp.br
+### SOFTWARE
 
-- <i class="fa fa-twitter"></i> [Twitter: `@`BeaMilz](https://twitter.com/BeaMilz)
+<i class="fas fa-box-open"></i> [Package {dados}](https://cienciadedatos.github.io/dados/) - Co-Author. 
 
-- <i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
+<i class="fas fa-box-open"></i> [Package {mananciais}](https://beatrizmilz.github.io/mananciais/) - Author, maintainer. 
 
-- <i class="fa fa-external-link-alt"></i> <a href='http://lattes.cnpq.br/5150665880581477'> Lattes </a> 
+<br>
 
-- <i class="fab fa-orcid"></i> <a href='https://orcid.org/0000-0002-3064-4486'> Orcid </a>  
+### TEACHING
 
-- <i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
+<i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
 
-- <i class="fab fa-discourse"></i> [Discourse](https://discourse.curso-r.com/u/beatrizmilz/summary)
+<i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/).
+
+<br>
+
+### PROGRAMMING SKILLS
+
+<i class="fab fa-r-project"></i> `R`
+
+<i class="fa fa-area-chart" aria-hidden="true"></i>
+ `tidyverse`
+
+<i class="fas fa-code-branch"></i> `Git`
+
+<i class="fab fa-github"></i> `GitHub`
+
+<i class="fab fa-markdown"></i> `Markdown`
+
+<i class="fab fa-html5"></i> `HTML`
+
+<i class="fab fa-css3-alt"></i> `CSS`
+
 
 :::
 
-
-
+Projects {data-icon=share-alt}
+--------------------------------------------------------------------------------
 
 
 ```{r}
 CV %<>% print_section('community_projects')
 ```
+
 
 
 Selected Events organized {data-icon=calendar-check}
@@ -251,21 +253,21 @@ Selected Oral Communications {data-icon=chalkboard-teacher}
 CV %<>% print_section('oral_communications')
 ```
 
-Selected Publications from Events {data-icon=chalkboard-teacher}
+
+
+Selected Publications {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('publications_scientific_events')
+CV %<>% print_section('publications_books')
 ```
 
-Selected Short Courses Attended {data-icon=book} 
+
+
+Selected Workshops Taught {data-icon=book} 
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('short_courses')
+CV %<>% print_section('workshops_taught')
 ```
 
-
-:::aside
-<i class="fas fa-download"></i> [Download](https://beatrizmilz.github.io/resume/index.pdf)
-:::

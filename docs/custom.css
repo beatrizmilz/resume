@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;400&display=swap');
+
 
 /* Give headers playfair font */
 h1 {
-font-family: 'Lexend Deca', sans-serif;
-color: #88398a;
+font-family: 'Spartan', sans-serif;
+color: #16617a;
 }
 
 
 :root {
-  --sidebar-background-color: #f1ecf5; /* Make sidebar blue */
+  --sidebar-background-color: #eaf9f5; /* Make sidebar blue */
 }
 
 
 h2{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Spartan', sans-serif;
  	font-weight: 400;
 	font-size: 1.1rem;
-	color: #555; 
+	color: #444; 
 	text-transform: uppercase;
 }
 
@@ -24,7 +26,7 @@ h2{
 h3{
     font-family: 'Montserrat', sans-serif;
   	font-weight: 500;
-  	color: #88398a;
+  	color: #16617a;
 
 }
 
@@ -46,14 +48,14 @@ a:hover {
 }
 
 .decorator::after {
-	background-color: #8f4591;
+	background-color: #23a0ab;
 }
 
 
 
 
 b::title{
-  	color: #88398a;
+  	color: #16617a;
 	font-weight: 600;
 }
 
