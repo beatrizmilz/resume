@@ -147,13 +147,21 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
-
-Research Projects {data-icon=laptop}
+Selected Workshops Taught {data-icon=book} 
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('research_projects')
+CV %<>% print_section('workshops_taught')
 ```
+
+
+Selected Short Courses  {data-icon=book} 
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('short_courses')
+```
+
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
@@ -230,6 +238,13 @@ I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.or
 
 
 
+Research Projects {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('research_projects')
+```
+
 
 
 Selected Oral Communications {data-icon=chalkboard-teacher}
@@ -249,18 +264,4 @@ CV %<>% print_section('publications_books')
 ```
 
 
-
-Selected Workshops Taught {data-icon=book} 
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('workshops_taught')
-```
-
-Selected Short Courses  {data-icon=book} 
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('short_courses')
-```
 
