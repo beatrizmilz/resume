@@ -171,15 +171,6 @@ CV %<>% print_section('teaching_experience')
 ```
 
 
-Scientific Journals {data-icon=book }
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('scientific_journals')
-```
-
-
-
 
 ::: aside
 
@@ -235,6 +226,15 @@ I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.or
 
 
 :::
+
+
+
+Scientific Journals {data-icon=book }
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('scientific_journals')
+```
 
 
 
