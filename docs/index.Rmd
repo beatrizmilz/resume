@@ -90,26 +90,25 @@ Aside
 
 
 ### CONTACT
+<center>
 
 <i class="fa fa-chalkboard-teacher"></i> Talks: [beatrizmilz.com/talk/](https://beatrizmilz.com/talk/)
 
-<i class="fa fa-envelope"></i> milz.bea@gmail.com
+<a href='https://beatrizmilz.com' target='_blank'><i class="fa fa-home"></i></a>
+ <a href='https://github.com/beatrizmilz' target='_blank'><i class="fa fa-github"></i></a> <a href='mailto:milz.bea@gmail.com'><i class="fa fa-envelope"></i></a> <a href='https://twitter.com/BeaMilz' target='_blank'><i class="fa fa-twitter"></i></a>  <a href='https://github.com/beatrizmilz' target='_blank'><i class="fa fa-github"></i></a>  <a href='https://orcid.org/0000-0002-3064-4486' target='_blank'><i class="fab fa-orcid"></i></a> <a href='https://discourse.curso-r.com/u/beatrizmilz/summary' target='_blank'><i class="fab fa-discourse"></i></a> <a href='http://lattes.cnpq.br/5150665880581477'  target='_blank'><i class="ai ai-lattes"></i></a>
+</center>
 
-<i class="fa fa-twitter"></i> [Twitter: `@`BeaMilz](https://twitter.com/BeaMilz)
+<br>
 
-<i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
+### TEACHING
 
-<i class="fa fa-external-link-alt"></i> <a href='http://lattes.cnpq.br/5150665880581477'> Lattes </a>
+<i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
 
-<i class="fab fa-orcid"></i> <a href='https://orcid.org/0000-0002-3064-4486'> Orcid </a>
+<i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/).
 
-<i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
+<br>
 
-<i class="fab fa-discourse"></i> [Discourse](https://discourse.curso-r.com/u/beatrizmilz/summary)
-
-
-Languages {#languages}
---------------------------------------------------------------------------------
+### Languages
 
 **Portuguese:** Native
 
@@ -184,12 +183,15 @@ I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.or
 
 ### GRANTS
 
-<i class="far fa-star"></i> [LatinR 2019](https://latin-r.com/) - Travel and Conference.
+<i class="far fa-star"></i> [FAPESP](https://fapesp.br/). Doctorate Scholarship - 2019-2021.
 
 <i class="far fa-star"></i> [useR! 2019](https://user2019.r-project.org/). Diversity Scholarship - Travel and Conference.
 
+<i class="far fa-star"></i> [LatinR 2019](https://latin-r.com/) - Travel and Conference.
 
 <br>
+
+
 
 ### SOFTWARE
 
@@ -199,11 +201,10 @@ I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.or
 
 <br>
 
-### TEACHING
+### SOFTWARE REVIEW
 
-<i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
+<i class="fas fa-box-open"></i> [R OpenSci](https://ropensci.org/): [reviews available here](https://github.com/beatrizmilz/ropensci_reviews#ropensci-reviews). 
 
-<i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/).
 
 <br>
 
