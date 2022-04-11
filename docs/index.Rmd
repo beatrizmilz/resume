@@ -84,7 +84,7 @@ Aside
 
 
 <center>
-![Beatriz Milz](https://beatrizmilz.com/about/sidebar/avatar.jpeg){width=80% style='border-radius: 50%;'}
+![Beatriz Milz](https://avatars.githubusercontent.com/u/42153618?v=4){width=80% style='border-radius: 50%;'}
 </center>
 
 
@@ -139,29 +139,6 @@ Beatriz Milz {#title}
 --------------------------------------------------------------------------------
 
 
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('education')
-```
-
-Selected Workshops Taught {data-icon=book} 
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('workshops_taught')
-```
-
-
-Selected Short Courses  {data-icon=book} 
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('short_courses')
-```
-
-
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
@@ -170,6 +147,16 @@ CV %<>% print_section('teaching_experience')
 ```
 
 
+
+Selected Oral Communications {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('oral_communications')
+```
+
+
+\pagebreak
 
 ::: aside
 
@@ -195,7 +182,7 @@ I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.or
 
 ### SOFTWARE
 
-<i class="fas fa-box-open"></i> [Package {dados}](https://cienciadedatos.github.io/dados/) - Co-Author. 
+<i class="fas fa-box-open"></i> [Package {dados} - Available on CRAN](https://cienciadedatos.github.io/dados/) - Co-Author. 
 
 <i class="fas fa-box-open"></i> [Package {mananciais}](https://beatrizmilz.github.io/mananciais/) - Author, maintainer. 
 
@@ -230,39 +217,28 @@ I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.or
 
 
 
-Scientific Journals {data-icon=book }
+
+
+Selected Workshops Taught {data-icon=book} 
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('scientific_journals')
+CV %<>% print_section('workshops_taught')
 ```
 
 
 
-Research Projects {data-icon=laptop}
+
+
+Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('research_projects')
+CV %<>% print_section('education')
 ```
 
 
 
-Selected Oral Communications {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('oral_communications')
-```
-
-
-
-Selected Publications {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('publications_books')
-```
 
 
 
