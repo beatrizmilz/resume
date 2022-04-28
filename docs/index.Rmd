@@ -170,6 +170,8 @@ I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.or
 
 ### GRANTS
 
+<i class="far fa-star"></i> [rstudio::conf()  2022](https://www.rstudio.com/conference/) - Diversity Scholarship.
+
 <i class="far fa-star"></i> [FAPESP](https://fapesp.br/). Doctorate Scholarship - 2019-2021.
 
 <i class="far fa-star"></i> [useR! 2019](https://user2019.r-project.org/). Diversity Scholarship - Travel and Conference.
