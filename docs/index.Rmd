@@ -100,6 +100,8 @@ Aside
 
 <br>
 
+I'm an active participant in the local R community: I'm a co-organizer of R-Ladies São Paulo since 2018, and I have taught in several meetups and workshops. All the slides are available here: [beatrizmilz.com/talk/](https://beatrizmilz.com/talk/). I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.org/) and [LatinR](https://latin-r.com/).
+
 ### TEACHING
 
 <i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
@@ -122,9 +124,6 @@ Aside
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
-<i class="fas fa-download"></i> [Download](https://beatrizmilz.github.io/resume/index.pdf)
-
-
 This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
 
 Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beatrizmilz/resume). 
@@ -160,13 +159,7 @@ CV %<>% print_section('oral_communications')
 
 ::: aside
 
-   
-I'm an active participant in the local R community: I'm a co-organizer of R-Ladies São Paulo since 2018, and I have taught in several meetups and workshops. All the slides are available here: [beatrizmilz.com/talk/](https://beatrizmilz.com/talk/)
-
-
-I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.org/) and [LatinR](https://latin-r.com/).
-
-
+Selected activities:
 
 ### GRANTS
 
@@ -203,6 +196,8 @@ I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.or
 
 <i class="fa fa-area-chart" aria-hidden="true"></i>
  `tidyverse`
+ 
+<i class="fab fa-markdown"></i> `RMarkdown / Quarto` 
 
 <i class="fas fa-code-branch"></i> `Git`
 
