@@ -187,6 +187,13 @@ Selected activities:
 
 <i class="fas fa-box-open"></i> [R OpenSci](https://ropensci.org/): [reviews available here](https://github.com/beatrizmilz/ropensci_reviews#ropensci-reviews). 
 
+<br>
+
+### BOOK REVIEW
+
+<i class="fas fa-box-open"></i> [Ecological Analysis in R](https://analises-ecologicas.com/): Book in Portuguese. Chapters 4 and 5 - Introduction to R and Tidyverse. 
+
+
 
 <br>
 
