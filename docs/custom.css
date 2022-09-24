@@ -1,74 +1,50 @@
-@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;400&display=swap');
-
-
-/* Give headers playfair font */
-h1 {
-font-family: 'Spartan', sans-serif;
-color: #16617a;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&display=swap');
 
 :root {
-  --sidebar-background-color: #eaf9f5; /* Make sidebar blue */
+    --bs-blue: #9172be;
+    --bs-primary: #eb6864;
 }
 
+h1, h2, h3 {
+  font-family: "Montserrat";
+  color:  var(--bs-blue);
+  margin-top: 0rem;
+}
+
+h1{
+    font-size: 2rem;
+}
 
 h2{
-  font-family: 'Spartan', sans-serif;
- 	font-weight: 400;
-	font-size: 1.1rem;
-	color: #444; 
-	text-transform: uppercase;
+    font-size: 1.3rem;
+    border-bottom: 0px solid #dee2e6;
+    padding-bottom: 0rem;
 }
-
 
 h3{
-    font-family: 'Montserrat', sans-serif;
-  	font-weight: 500;
-  	color: #16617a;
-
+    font-size: 1rem;
 }
 
 
-a {
-	color: #095a95;
-
+a{
+  color: var(--bs-blue);
 }
 
-a:hover {
-	text-decoration: underline dotted;
-	
-
+b, strong {
+    color: var(--bs-blue);
+    font-weight: bolder;
 }
 
-
-.aside ul {
-	padding-left: 0.2rem;
+p, .gt_table, .gt_row{
+  color: #626262;
+  font-size: .825rem;
 }
 
-.decorator::after {
-	background-color: #23a0ab;
+.footer{
+  font-size: 0.70rem !important;
 }
 
-
-
-
-b::title{
-  	color: #16617a;
-	font-weight: 600;
-}
-
-
-p::title {
-
-	text-align: justify;
-}
-
-aside{
-  padding: 0in;
-}
-
-.aside i::before {
-    padding: 0.5em;
+main{
+  margin-bottom: 0em;
 }
