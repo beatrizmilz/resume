@@ -42,7 +42,7 @@ cv <- googlesheets4::read_sheet(cv_url)
 
 ### Languages
 
-**Portuguese:** Native **English:** Proficient **Spanish:** Intermediate
+**Portuguese:** Native <br> **English:** Proficient <br> **Spanish:** Proficient
 
 ### Grants
 
@@ -142,8 +142,6 @@ create_section(cv, "working_experience")
 create_section(cv, "teaching_experience")
 ```
 
-<br><br>
-
 ## <i class="fa-solid fa-chalkboard-user"></i> Selected talks
 
 ```{r}
@@ -160,8 +158,7 @@ create_section(cv, "education")
 
 <!-- footer -->
 
-<p class="footer">
-Resume made with 💜 and [Quarto](https://quarto.org/). Last updated on `r format.Date(Sys.Date(), "%b %d, %Y")`. Code available on <i class="fa-brands fa-github"></i> [GitHub](https://github.com/beatrizmilz/resume). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).</p>
+<p class="footer">Resume made with 💜 and [Quarto](https://quarto.org/). Last updated on `r format.Date(Sys.Date(), "%b %d, %Y")`. Code available on <i class="fa-brands fa-github"></i> [GitHub](https://github.com/beatrizmilz/resume). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).</p>
 
 ```{=html}
 <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script>
