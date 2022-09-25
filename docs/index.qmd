@@ -34,7 +34,7 @@ cv <- googlesheets4::read_sheet(cv_url)
 
 </span>
 
-<!-- Hi! I'm a co-organizer of [R-Ladies São Paulo](https://www.instagram.com/rladiessaopaulo/) since 2018, and I have taught in several meetups and workshops. All the slides are available here: [beamilz.com/talks/](https://beamilz.com/talks/). I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.org/) and [LatinR](https://latin-r.com/). -->
+Hi! I'm a co-organizer of [R-Ladies São Paulo](https://www.instagram.com/rladiessaopaulo/) since 2018, and I have taught in several meetups and workshops. All the slides are available here: [beamilz.com/talks/](https://beamilz.com/talks/). I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.org/) and [LatinR](https://latin-r.com/).
 
 ### Teaching
 
@@ -50,15 +50,13 @@ cv <- googlesheets4::read_sheet(cv_url)
 
 <i class="far fa-star"></i> [FAPESP](https://fapesp.br/). Doctorate Scholarship - 2019-2021.
 
-<i class="far fa-star"></i> [useR! 2019](https://user2019.r-project.org/). Diversity Scholarship - Travel and Conference.
+<i class="far fa-star"></i> [useR! 2019](https://user2019.r-project.org/) - Diversity Scholarship.
 
-<i class="far fa-star"></i> [LatinR 2019](https://latin-r.com/) - Travel and Conference.
+<i class="far fa-star"></i> [LatinR 2019](https://latin-r.com/) - Diversity Scholarship.
 
 ### Software review
 
 <i class="fas fa-box-open"></i> [R OpenSci](https://ropensci.org/): [reviews available here](https://github.com/beatrizmilz/ropensci_reviews#ropensci-reviews).
-
-<br><br>
 
 ### Software
 
@@ -155,10 +153,8 @@ create_section(cv, "education")
 ```
 :::
 :::
-
 <!-- footer -->
-
-<p class="footer">Resume made with 💜 and [Quarto](https://quarto.org/). Last updated on `r format.Date(Sys.Date(), "%b %d, %Y")`. Code available on <i class="fa-brands fa-github"></i> [GitHub](https://github.com/beatrizmilz/resume). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).</p>
+<p class="footer">Resume made with 💜 and [Quarto](https://quarto.org/). Last updated on `r format.Date(Sys.Date(), "%b %d, %Y")`. <br> Code available on <i class="fa-brands fa-github"></i> [GitHub](https://github.com/beatrizmilz/resume). <br>License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).</p>
 
 ```{=html}
 <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script>
