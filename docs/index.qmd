@@ -62,6 +62,8 @@ Hi! I'm a co-organizer of [R-Ladies São Paulo](https://www.instagram.com/rladie
 
 <i class="fas fa-box-open"></i> [Package {dados} - Available on CRAN](https://cienciadedatos.github.io/dados/) - Co-Author.
 
+<br>
+
 <i class="fas fa-box-open"></i> [Package {mananciais}](https://beatrizmilz.github.io/mananciais/) - Author, maintainer.
 
 ### Programming skills
@@ -140,7 +142,7 @@ create_section(cv, "working_experience")
 create_section(cv, "teaching_experience")
 ```
 
-## <i class="fa-solid fa-chalkboard-user"></i> Selected talks
+## <i class="fa-solid fa-chalkboard-user"></i> Selected talks / workshops
 
 ```{r}
 create_section(cv, "oral_communications")
@@ -153,8 +155,14 @@ create_section(cv, "education")
 ```
 :::
 :::
+
 <!-- footer -->
-<p class="footer">Resume made with 💜 and [Quarto](https://quarto.org/). Last updated on `r format.Date(Sys.Date(), "%b %d, %Y")`. <br> Code available on <i class="fa-brands fa-github"></i> [GitHub](https://github.com/beatrizmilz/resume). <br>License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).</p>
+
+<p class="footer">
+
+Resume made with 💜 and [Quarto](https://quarto.org/). Last updated on `r format.Date(Sys.Date(), "%b %d, %Y")`. <br> Code available on <i class="fa-brands fa-github"></i> [GitHub](https://github.com/beatrizmilz/resume/blob/master/docs/index.qmd). <br>License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+
+</p>
 
 ```{=html}
 <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script>
