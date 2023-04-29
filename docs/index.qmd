@@ -20,7 +20,6 @@ cv_url <- "https://docs.google.com/spreadsheets/d/1iBxpNzwZWOrOwR__Y4FNDQ_3tpw-0
 cv <- googlesheets4::read_sheet(cv_url)
 ```
 
-
 ::: columns
 ::: {.column width="25%"}
 <center><a href='https://beamilz.com' target='_blank'> ![](https://avatars.githubusercontent.com/u/42153618?v=4){width="80%" style="border-radius: 50%;"}</center>
@@ -124,6 +123,8 @@ create_section <- function(cv_data, section_name){
 }
 ```
 
+
+
 <!-- Main content -->
 
 # Beatriz Milz
@@ -140,11 +141,14 @@ create_section(cv, "working_experience")
 create_section(cv, "teaching_experience")
 ```
 
+<br> 
+
 ## <i class="fa-solid fa-chalkboard-user"></i> Selected talks / workshops
 
 ```{r}
 create_section(cv, "oral_communications")
 ```
+
 [See more in beamilz.com/talks/](https://beamilz.com/talks/)
 
 ## <i class="fa-solid fa-graduation-cap"></i> Education
@@ -152,16 +156,17 @@ create_section(cv, "oral_communications")
 ```{r}
 create_section(cv, "education")
 ```
-:::
-:::
-
-<!-- footer -->
 
 <p class="small">
 
 Resume made with 💜 and [Quarto](https://quarto.org/). Last updated on `r format.Date(Sys.Date(), "%b %d, %Y")`. <br> Code available on <i class="fa-brands fa-github"></i> [GitHub](https://github.com/beatrizmilz/resume/blob/master/docs/index.qmd). <br>License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
 
 </p>
+
+:::
+:::
+
+
 
 ```{=html}
 <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script>
