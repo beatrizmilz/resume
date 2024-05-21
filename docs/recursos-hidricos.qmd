@@ -1,0 +1,145 @@
+---
+title: ""
+format: 
+  html:
+    theme: journal
+    css: custom2.css
+editor: visual
+knitr:
+  opts_chunk: 
+    echo: false
+    message: false
+    warning: false
+---
+
+```{r}
+#| include: false
+#| cache: false
+googlesheets4::gs4_deauth()
+cv_url <- "https://docs.google.com/spreadsheets/d/1iBxpNzwZWOrOwR__Y4FNDQ_3tpw-0trS0PVigsS4z6w/edit?usp=sharing"
+cv <- googlesheets4::read_sheet(cv_url)
+```
+
+::: columns
+::: {.column width="25%"}
+<center><a href='https://beamilz.com' target='_blank'> ![](https://avatars.githubusercontent.com/u/42153618?v=4){width="80%" style="border-radius: 50%;"}</center>
+
+</a>
+
+### Contato
+
+<center><span style="font-size: 1.5em;"> <a href='https://beamilz.com' target='_blank'><i class="fa fa-home"></i></a> <a href='https://github.com/beatrizmilz' target='_blank'><i class="fa-brands fa-github"></i></a> <a href='mailto:milz.bea@gmail.com'><i class="fa fa-envelope"></i></a> <a href='https://www.linkedin.com/in/beatrizmilz/' target='_blank'><i class="fab fa-linkedin"></i></a></center>
+
+</span>
+
+
+
+### Idiomas
+
+**Português:** Nativo <br> **Inglês:** Fluente <br> **Espanhol:** Intermediário
+
+
+### Habilidades em Programação
+
+<i class="fab fa-r-project"></i> `R` <br> <i class="fa fa-area-chart" aria-hidden="true"></i> `tidyverse` <br> <i class="fab fa-markdown"></i> `RMarkdown / Quarto` <br> <i class="fas fa-code-branch"></i> `Git` <br> <i class="fab fa-github"></i> `GitHub` <br> <i class="fab fa-markdown"></i> `Markdown` <br> <i class="fab fa-html5"></i> `HTML` <br> <i class="fab fa-css3-alt"></i> `CSS` <br>
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="70%"}
+<!-- Functions -->
+
+```{r}
+col_br <- function(col){
+    dplyr::if_else(
+      !is.na(col) & col != "N/A|NA", 
+      paste0(col, ""),
+      ""
+    )
+}
+
+col_br_loc <- function(col){
+    dplyr::if_else(
+      !is.na(col) & col != "N/A|NA", 
+      paste0('<br><i class="fa-solid fa-location-dot"></i> ', col),
+      ""
+    )
+}
+
+create_section <- function(cv_data, section_name){
+  cv_data |>
+    dplyr::mutate(in_resume = as.character(in_resume),
+                  end = tidyr::replace_na(end, 9999),
+                  loc = dplyr::if_else(loc == "Online", NA_character_, loc)) |>
+    dplyr::filter(in_resume %in% c("TRUE", "VERDADEIRO"), section == section_name) |>
+    dplyr::select(section:description_1) |>
+    dplyr::arrange(desc(end), desc(start)) |>
+    dplyr::mutate(
+      date =
+        dplyr::case_when(
+          end == 9999 ~ glue::glue("Current <br> | <br> {start}"),
+          end != start ~ glue::glue("{end} <br> | <br> {start}"),
+          end == start ~ glue::glue("{end}"),
+          TRUE ~ ""
+        ) ,
+      .before = everything()
+    ) |>
+    dplyr::mutate(
+      main_text =
+        glue::glue(
+          "**{title}** <br> {col_br(institution)} {col_br(description_1)} {col_br_loc(loc)}"),
+      .after = date
+    ) |>
+    dplyr::select(-c(start, end, section, title, institution, loc, description_1)) |>
+    gt::gt() |>
+    gt::fmt_markdown(columns = c(date, main_text)) |> 
+    gt::tab_options(column_labels.hidden = TRUE, table.width = gt::pct(100)) |> 
+    gt::cols_align(align = "left", columns = main_text) |> 
+    gt::cols_width(date ~ gt::pct(10))
+}
+```
+
+<!-- Main content -->
+
+# Beatriz Milz
+
+## <i class="fa-solid fa-suitcase"></i> Work
+
+```{r}
+create_section(cv, "working_experience")
+```
+
+## <i class="fa-solid fa-person-chalkboard"></i> Selected teaching experience
+
+```{r}
+create_section(cv, "teaching_experience")
+```
+
+<br>
+
+## <i class="fa-solid fa-chalkboard-user"></i> Selected talks / workshops
+
+```{r}
+create_section(cv, "oral_communications")
+```
+
+[See more in beamilz.com/talks/](https://beamilz.com/talks/)
+
+## <i class="fa-solid fa-graduation-cap"></i> Education
+
+```{r}
+create_section(cv, "education")
+```
+
+<p class="small">
+
+Resume made with 💜 and [Quarto](https://quarto.org/). Last updated on `r format.Date(Sys.Date(), "%b %d, %Y")`. <br> Code available on <i class="fa-brands fa-github"></i> [GitHub](https://github.com/beatrizmilz/resume/blob/master/docs/index.qmd). <br>License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+
+</p>
+:::
+:::
+
+```{=html}
+<script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script>
+```

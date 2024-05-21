@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&display=swap');
+
+:root {
+    --bs-blue: #4285f4;
+    --bs-primary: #eb6864;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+  color:  var(--bs-blue);
+  margin-top: 0rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.3rem;
+    border-bottom: 0px solid #dee2e6;
+    padding-bottom: 0rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+
+a{
+  color: var(--bs-blue);
+}
+
+b, strong {
+    color: var(--bs-blue);
+    font-weight: bolder;
+}
+
+p, .gt_table, .gt_row{
+  color: #626262;
+  font-size: .825rem;
+}
+
+.small{
+  font-size: 0.70rem !important;
+}
+
+main{
+  margin-bottom: 0em;
+}
